@@ -1,0 +1,106 @@
+{
+  "common": {
+    "loading": "正在加载...",
+    "close": "关闭",
+    "submit": "提交",
+    "cancel": "取消",
+    "continue": "继续",
+    "back": "返回"
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "login": "登录",
+    "register": "注册"
+  },
+  "hero": {
+    "headline": "有趣地学英语！",
+    "subheading": "和成千上万的学习者一起开启秋天的冒险",
+    "cta_student": "开始学习",
+    "cta_tutor": "开始教学"
+  },
+  "roleSelection": {
+    "student": {
+      "title": "学习英语",
+      "benefit1": "结交来自世界各地的朋友！",
+      "benefit2": "通过有趣的游戏学习！",
+      "benefit3": "跟着关爱的老师学习！",
+      "cta": "开始学习"
+    },
+    "tutor": {
+      "title": "教学分享快乐",
+      "benefit1": "分享你对英语的热爱！",
+      "benefit2": "帮助孩子们成长学习！",
+      "benefit3": "灵活的教学时间！",
+      "cta": "开始教学"
+    }
+  },
+  "howItWorks": {
+    "students": {
+      "title": "学生如何学习",
+      "step1": {
+        "title": "注册并选择你的道路",
+        "description": "角色选择秋天小径"
+      },
+      "step2": {
+        "title": "找到你的学习方式",
+        "description": "角色探索不同活动"
+      },
+      "step3": {
+        "title": "开始你的冒险！",
+        "description": "角色与彩色叶子一起庆祝"
+      }
+    },
+    "tutors": {
+      "title": "导师如何加入",
+      "step1": {
+        "title": "申请加入我们的家庭",
+        "description": "角色填写温馨申请"
+      },
+      "step2": {
+        "title": "获得你的教学徽章",
+        "description": "角色接受秋天证书"
+      },
+      "step3": {
+        "title": "开始启发孩子们！",
+        "description": "角色教快乐的学生"
+      }
+    }
+  },
+  "socialProof": {
+    "statistics": {
+      "learners": "10,000+ 快乐的学习者",
+      "teachers": "500+ 关爱的老师",
+      "countries": "50+ 服务国家"
+    }
+  },
+  "forms": {
+    "newsletter": {
+      "title": "加入我们的秋天学习冒险！",
+      "emailPlaceholder": "输入你的邮箱",
+      "languagePlaceholder": "首选语言",
+      "successMessage": "欢迎来到Top Talks大家庭！",
+      "subscribe": "订阅"
+    },
+    "earlyAccess": {
+      "title": "在我们发布时第一个玩！",
+      "namePlaceholder": "你的姓名",
+      "emailPlaceholder": "你的邮箱",
+      "rolePlaceholder": "我感兴趣的是..."
+    },
+    "contact": {
+      "title": "让我们聊聊！",
+      "namePlaceholder": "你的姓名",
+      "emailPlaceholder": "你的邮箱",
+      "subjectPlaceholder": "主题",
+      "messagePlaceholder": "你的消息",
+      "send": "发送消息"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Top Talks. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}

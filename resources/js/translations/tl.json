@@ -1,0 +1,106 @@
+{
+  "common": {
+    "loading": "Naglo-load...",
+    "close": "Isara",
+    "submit": "Ipasa",
+    "cancel": "Kanselahin",
+    "continue": "Magpatuloy",
+    "back": "Bumalik"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "Tungkol sa Amin",
+    "contact": "Makipag-ugnayan",
+    "login": "Mag-log in",
+    "register": "Mag-sign up"
+  },
+  "hero": {
+    "headline": "Matutong Mag-English nang Masaya!",
+    "subheading": "Sumali sa libu-libong nag-aaral sa kanilang autumn adventure",
+    "cta_student": "Simulan",
+    "cta_tutor": "Magturo"
+  },
+  "roleSelection": {
+    "student": {
+      "title": "Matuto ng English",
+      "benefit1": "Makakagawa ng mga kaibigan mula sa buong mundo!",
+      "benefit2": "Maglaro ng masasayang laro habang nag-aaral!",
+      "benefit3": "Mag-aral kasama ang mga maalalahanin na guro!",
+      "cta": "Simulan"
+    },
+    "tutor": {
+      "title": "Magturo at Magbahagi ng Saya",
+      "benefit1": "Ibahagi ang inyong pagmamahal sa English!",
+      "benefit2": "Tulungang lumaki at matuto ang mga bata!",
+      "benefit3": "Flexible na schedule sa pagtuturo!",
+      "cta": "Magturo"
+    }
+  },
+  "howItWorks": {
+    "students": {
+      "title": "Paano Nag-aaral ang mga Estudyante",
+      "step1": {
+        "title": "Mag-sign Up at Piliin ang Inyong Daan",
+        "description": "Character na pumipili ng autumn trail"
+      },
+      "step2": {
+        "title": "Hanapin ang Inyong Learning Style",
+        "description": "Character na naggagalugad ng iba't ibang aktibidad"
+      },
+      "step3": {
+        "title": "Simulan ang Inyong Adventure!",
+        "description": "Character na nagse-celebrate kasama ang confetti leaves"
+      }
+    },
+    "tutors": {
+      "title": "Paano Sumasali ang mga Tutor",
+      "step1": {
+        "title": "Mag-apply para Sumali sa Aming Pamilya",
+        "description": "Character na nagsusulat ng cozy application"
+      },
+      "step2": {
+        "title": "Kunin ang Inyong Teaching Badge",
+        "description": "Character na tumatanggap ng autumn certificate"
+      },
+      "step3": {
+        "title": "Simulang Mag-inspire ng mga Bata!",
+        "description": "Character na nagtuturo sa masasayang estudyante"
+      }
+    }
+  },
+  "socialProof": {
+    "statistics": {
+      "learners": "10,000+ Masasayang Nag-aaral",
+      "teachers": "500+ Maalalahanin na Guro",
+      "countries": "50+ Bansang Pinaglilingkuran"
+    }
+  },
+  "forms": {
+    "newsletter": {
+      "title": "Sumali sa aming Autumn Learning Adventure!",
+      "emailPlaceholder": "Ilagay ang inyong email",
+      "languagePlaceholder": "Preferred na wika",
+      "successMessage": "Maligayang pagdating sa Top Talks family!",
+      "subscribe": "Mag-subscribe"
+    },
+    "earlyAccess": {
+      "title": "Maging una sa paglalaro kapag na-launch na!",
+      "namePlaceholder": "Inyong pangalan",
+      "emailPlaceholder": "Inyong email",
+      "rolePlaceholder": "Interesado ako sa..."
+    },
+    "contact": {
+      "title": "Mag-usap Tayo!",
+      "namePlaceholder": "Inyong pangalan",
+      "emailPlaceholder": "Inyong email",
+      "subjectPlaceholder": "Paksa",
+      "messagePlaceholder": "Inyong mensahe",
+      "send": "Ipadala ang Mensahe"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Top Talks. Lahat ng karapatan ay nakalaan.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

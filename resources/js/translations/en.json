@@ -1,0 +1,106 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "close": "Close",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Sign Up"
+  },
+  "hero": {
+    "headline": "Learn English the Fun Way!",
+    "subheading": "Join thousands of learners on their autumn adventure",
+    "cta_student": "Start Learning",
+    "cta_tutor": "Teach English"
+  },
+  "roleSelection": {
+    "student": {
+      "title": "Learn English",
+      "benefit1": "Make friends from around the world!",
+      "benefit2": "Play fun games while learning!",
+      "benefit3": "Study with caring teachers!",
+      "cta": "Start Learning"
+    },
+    "tutor": {
+      "title": "Teach & Share Joy",
+      "benefit1": "Share your love of English!",
+      "benefit2": "Help kids grow and learn!",
+      "benefit3": "Flexible teaching schedule!",
+      "cta": "Start Teaching"
+    }
+  },
+  "howItWorks": {
+    "students": {
+      "title": "How Students Learn",
+      "step1": {
+        "title": "Sign Up & Choose Your Path",
+        "description": "Character picking autumn trail"
+      },
+      "step2": {
+        "title": "Find Your Learning Style",
+        "description": "Character exploring different activities"
+      },
+      "step3": {
+        "title": "Start Your Adventure!",
+        "description": "Character celebrating with confetti leaves"
+      }
+    },
+    "tutors": {
+      "title": "How Tutors Join",
+      "step1": {
+        "title": "Apply to Join Our Family",
+        "description": "Character filling cozy application"
+      },
+      "step2": {
+        "title": "Get Your Teaching Badge",
+        "description": "Character receiving autumn certificate"
+      },
+      "step3": {
+        "title": "Start Inspiring Kids!",
+        "description": "Character teaching happy students"
+      }
+    }
+  },
+  "socialProof": {
+    "statistics": {
+      "learners": "10,000+ Happy Learners",
+      "teachers": "500+ Caring Teachers",
+      "countries": "50+ Countries Served"
+    }
+  },
+  "forms": {
+    "newsletter": {
+      "title": "Join our Autumn Learning Adventure!",
+      "emailPlaceholder": "Enter your email",
+      "languagePlaceholder": "Preferred language",
+      "successMessage": "Welcome to the Top Talks family!",
+      "subscribe": "Subscribe"
+    },
+    "earlyAccess": {
+      "title": "Be first to play when we launch!",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "rolePlaceholder": "I'm interested in..."
+    },
+    "contact": {
+      "title": "Let's Chat!",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Your message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Top Talks. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

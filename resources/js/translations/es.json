@@ -1,0 +1,106 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "close": "Cerrar",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "continue": "Continuar",
+    "back": "Atrás"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse"
+  },
+  "hero": {
+    "headline": "¡Aprende Inglés de Manera Divertida!",
+    "subheading": "Únete a miles de estudiantes en su aventura de otoño",
+    "cta_student": "Comenzar",
+    "cta_tutor": "Enseñar"
+  },
+  "roleSelection": {
+    "student": {
+      "title": "Aprender Inglés",
+      "benefit1": "¡Haz amigos de todo el mundo!",
+      "benefit2": "¡Juega juegos divertidos mientras aprendes!",
+      "benefit3": "¡Estudia con maestros cariñosos!",
+      "cta": "Comenzar"
+    },
+    "tutor": {
+      "title": "Enseña y Comparte Alegría",
+      "benefit1": "¡Comparte tu amor por el inglés!",
+      "benefit2": "¡Ayuda a los niños a crecer y aprender!",
+      "benefit3": "¡Horario de enseñanza flexible!",
+      "cta": "Enseñar"
+    }
+  },
+  "howItWorks": {
+    "students": {
+      "title": "Cómo Aprenden los Estudiantes",
+      "step1": {
+        "title": "Regístrate y Elige Tu Camino",
+        "description": "Personaje eligiendo sendero de otoño"
+      },
+      "step2": {
+        "title": "Encuentra Tu Estilo de Aprendizaje",
+        "description": "Personaje explorando diferentes actividades"
+      },
+      "step3": {
+        "title": "¡Comienza Tu Aventura!",
+        "description": "Personaje celebrando con confeti de hojas"
+      }
+    },
+    "tutors": {
+      "title": "Cómo se Unen los Tutores",
+      "step1": {
+        "title": "Solicita Unirte a Nuestra Familia",
+        "description": "Personaje llenando solicitud acogedora"
+      },
+      "step2": {
+        "title": "Obtén Tu Insignia de Enseñanza",
+        "description": "Personaje recibiendo certificado de otoño"
+      },
+      "step3": {
+        "title": "¡Comienza a Inspirar Niños!",
+        "description": "Personaje enseñando a estudiantes felices"
+      }
+    }
+  },
+  "socialProof": {
+    "statistics": {
+      "learners": "10,000+ Estudiantes Felices",
+      "teachers": "500+ Maestros Cariñosos",
+      "countries": "50+ Países Atendidos"
+    }
+  },
+  "forms": {
+    "newsletter": {
+      "title": "¡Únete a nuestra Aventura de Aprendizaje de Otoño!",
+      "emailPlaceholder": "Ingresa tu email",
+      "languagePlaceholder": "Idioma preferido",
+      "successMessage": "¡Bienvenido a la familia Top Talks!",
+      "subscribe": "Suscribirse"
+    },
+    "earlyAccess": {
+      "title": "¡Sé el primero en jugar cuando lancemos!",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "Tu email",
+      "rolePlaceholder": "Estoy interesado en..."
+    },
+    "contact": {
+      "title": "¡Hablemos!",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "Tu email",
+      "subjectPlaceholder": "Asunto",
+      "messagePlaceholder": "Tu mensaje",
+      "send": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Top Talks. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}
