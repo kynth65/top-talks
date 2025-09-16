@@ -6,6 +6,20 @@ import { useTranslation } from '@/hooks/useTranslation';
 const Footer: React.FC = () => {
   const { t } = useTranslation();
 
+  const handleNavigation = (sectionId: string) => {
+    // Check if we're on the home page
+    if (window.location.pathname === '/') {
+      // We're on home page, scroll to section
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // We're on a different page, navigate to home with hash
+      window.location.href = `/#${sectionId}`;
+    }
+  };
+
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -61,70 +75,94 @@ const Footer: React.FC = () => {
                 Top Talks
               </div>
               <p className="text-slate-300 max-w-sm">
-                Making English learning a fun autumn adventure for students and teachers around the world.
+                {t('footer.brandDescription')}
               </p>
               <div className="text-sm text-slate-400">
-                Made with care for learners everywhere
+                {t('footer.madeWithCare')}
               </div>
             </motion.div>
 
             {/* Quick Links */}
             <motion.div variants={itemVariants} className="space-y-4">
-              <h3 className="text-lg font-semibold text-white">Quick Links</h3>
+              <h3 className="text-lg font-semibold text-white">{t('footer.quickLinks')}</h3>
               <nav className="flex flex-col space-y-3">
                 <motion.a
-                  href="#"
-                  className="text-slate-300 hover:text-white transition-colors"
+                  href="/"
+                  className="text-slate-300 hover:text-white transition-colors cursor-pointer"
                   whileHover={{ x: 5 }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    if (window.location.pathname === '/') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    } else {
+                      window.location.href = '/';
+                    }
+                  }}
                 >
                   {t('navigation.home')}
                 </motion.a>
                 <motion.a
-                  href="#about"
-                  className="text-slate-300 hover:text-white transition-colors"
+                  href="/#roles"
+                  className="text-slate-300 hover:text-white transition-colors cursor-pointer"
                   whileHover={{ x: 5 }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavigation('roles');
+                  }}
                 >
                   {t('navigation.about')}
                 </motion.a>
                 <motion.a
-                  href="#contact"
-                  className="text-slate-300 hover:text-white transition-colors"
+                  href="/#contact"
+                  className="text-slate-300 hover:text-white transition-colors cursor-pointer"
                   whileHover={{ x: 5 }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavigation('contact');
+                  }}
                 >
                   {t('navigation.contact')}
                 </motion.a>
                 <motion.a
-                  href="#"
-                  className="text-slate-300 hover:text-white transition-colors"
+                  href="/student-services"
+                  className="text-slate-300 hover:text-white transition-colors cursor-pointer"
                   whileHover={{ x: 5 }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = '/student-services';
+                  }}
                 >
-                  For Students
+                  {t('navigation.forStudents')}
                 </motion.a>
                 <motion.a
-                  href="#"
-                  className="text-slate-300 hover:text-white transition-colors"
+                  href="/start-teaching"
+                  className="text-slate-300 hover:text-white transition-colors cursor-pointer"
                   whileHover={{ x: 5 }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = '/start-teaching';
+                  }}
                 >
-                  For Teachers
+                  {t('navigation.forTeachers')}
                 </motion.a>
               </nav>
             </motion.div>
 
             {/* Statistics */}
             <motion.div variants={itemVariants} className="space-y-4">
-              <h3 className="text-lg font-semibold text-white">Our Community</h3>
+              <h3 className="text-lg font-semibold text-white">{t('footer.ourCommunity')}</h3>
               <div className="space-y-3">
                 <div>
                   <div className="font-bold text-white">10,000+</div>
-                  <div className="text-sm text-slate-400">Happy Learners</div>
+                  <div className="text-sm text-slate-400">{t('socialProof.statistics.learners')}</div>
                 </div>
                 <div>
                   <div className="font-bold text-white">500+</div>
-                  <div className="text-sm text-slate-400">Caring Teachers</div>
+                  <div className="text-sm text-slate-400">{t('socialProof.statistics.teachers')}</div>
                 </div>
                 <div>
                   <div className="font-bold text-white">50+</div>
-                  <div className="text-sm text-slate-400">Countries Served</div>
+                  <div className="text-sm text-slate-400">{t('socialProof.statistics.countries')}</div>
                 </div>
               </div>
             </motion.div>
@@ -142,20 +180,20 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-6 text-sm">
               <motion.a
                 href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-primary transition-colors cursor-pointer"
                 whileHover={{ y: -2 }}
               >
                 {t('footer.privacy')}
               </motion.a>
               <motion.a
                 href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-primary transition-colors cursor-pointer"
                 whileHover={{ y: -2 }}
               >
                 {t('footer.terms')}
               </motion.a>
               <div className="text-slate-400">
-                Follow us on social media
+                {t('footer.followUs')}
               </div>
             </div>
           </motion.div>
@@ -166,7 +204,7 @@ const Footer: React.FC = () => {
             className="text-center mt-6 p-4 bg-slate-700/50 rounded-2xl"
           >
             <p className="text-sm text-slate-300 italic">
-              "Learning English is like collecting autumn leaves - every word you gather makes your knowledge more beautiful."
+              "{t('footer.seasonalMessage')}"
             </p>
           </motion.div>
         </motion.div>
