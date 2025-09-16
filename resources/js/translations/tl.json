@@ -5,36 +5,52 @@
     "submit": "Ipasa",
     "cancel": "Kanselahin",
     "continue": "Magpatuloy",
-    "back": "Bumalik"
+    "back": "Bumalik",
+    "learnMore": "Alamin Pa",
+    "getStarted": "Simulan",
+    "applyNow": "Mag-apply Ngayon",
+    "contactUs": "Makipag-ugnayan sa Amin",
+    "startFreeTrial": "Simulan ang Free Trial",
+    "viewPricing": "Tingnan ang Presyo",
+    "scheduleConsultation": "Mag-schedule ng Consultation",
+    "startTeaching": "Simulang Magturo"
   },
   "navigation": {
     "home": "Home",
     "about": "Tungkol sa Amin",
     "contact": "Makipag-ugnayan",
     "login": "Mag-log in",
-    "register": "Mag-sign up"
+    "register": "Mag-sign up",
+    "howItWorks": "Paano Gumagana",
+    "reviews": "Mga Review",
+    "forStudents": "Para sa mga Estudyante",
+    "forTeachers": "Para sa mga Guro"
   },
   "hero": {
     "headline": "Matutong Mag-English nang Masaya!",
     "subheading": "Sumali sa libu-libong nag-aaral sa kanilang autumn adventure",
-    "cta_student": "Simulan",
-    "cta_tutor": "Magturo"
+    "cta_student": "Simulang Mag-aral",
+    "cta_tutor": "Magturo ng English",
+    "encouragement": "Ang inyong autumn learning adventure ay nagsisimula dito!"
   },
   "roleSelection": {
+    "title": "Piliin ang Inyong Autumn Adventure",
+    "subtitle": "Kung nandito kayo para matuto o magturo, may perpektong daan kami para sa inyong English journey",
     "student": {
       "title": "Matuto ng English",
       "benefit1": "Makakagawa ng mga kaibigan mula sa buong mundo!",
       "benefit2": "Maglaro ng masasayang laro habang nag-aaral!",
       "benefit3": "Mag-aral kasama ang mga maalalahanin na guro!",
-      "cta": "Simulan"
+      "cta": "Simulang Mag-aral"
     },
     "tutor": {
       "title": "Magturo at Magbahagi ng Saya",
       "benefit1": "Ibahagi ang inyong pagmamahal sa English!",
       "benefit2": "Tulungang lumaki at matuto ang mga bata!",
       "benefit3": "Flexible na schedule sa pagtuturo!",
-      "cta": "Magturo"
-    }
+      "cta": "Simulang Magturo"
+    },
+    "encouragement": "Ang lahat ng dakilang paglalakbay ay nagsisimula sa isang hakbang"
   },
   "howItWorks": {
     "students": {
@@ -69,10 +85,215 @@
     }
   },
   "socialProof": {
+    "title": "Ano ang Sinasabi ng Aming mga Estudyante",
+    "subtitle": "Sumali sa libu-libong masasayang nag-aaral sa kanilang autumn adventure",
     "statistics": {
       "learners": "10,000+ Masasayang Nag-aaral",
       "teachers": "500+ Maalalahanin na Guro",
-      "countries": "50+ Bansang Pinaglilingkuran"
+      "countries": "50+ Bansang Pinaglilingkuran",
+      "learnersDescription": "Mga estudyante mula sa buong mundo",
+      "teachersDescription": "Mga propesyonal at kaibigan-ihaing instructor",
+      "countriesDescription": "Pandaigdigang learning community"
+    },
+    "featuredTeachersTitle": "Kilalanin ang Aming Kamangha-manghang Guro",
+    "featuredTeachersSubtitle": "Mga bihasang at maalalahanin na educator na handang gabayan ang inyong learning journey",
+    "encouragement": "Sumali sa aming lumalaking pamilya ng mga nag-aaral at guro!"
+  },
+  "startTeaching": {
+    "title": "Simulan ang Inyong Teaching Journey",
+    "subtitle": "Sumali sa aming komunidad ng mga passionate educator at tumulong sa mga estudyante sa buong mundo na matuto ng English sa masaya at nakaakit na kapaligiran.",
+    "howToApply": {
+      "title": "Paano Mag-apply",
+      "subtitle": "Ang aming tuwiran na application process ay nagsisiguro na makakahanap kami ng mga pinakamahusay na guro na nagbabahagi ng aming passion sa edukasyon.",
+      "step1": {
+        "title": "Ipasa ang Inyong Application",
+        "description": "Punan ang aming comprehensive application form na kasama ang inyong personal information, teaching experience, at educational background. Siguraduhing magbigay ng tumpak at detalyadong impormasyon para matulungan kaming maintindihan ang inyong mga qualifications.",
+        "details": "Ang mga kinakailangang dokumento ay kasama ang inyong resume, teaching certificates (kung mayroon), at maikling cover letter na nagpapaliwanag kung bakit gusto ninyong magturo sa Top Talks."
+      },
+      "step2": {
+        "title": "Initial Screening",
+        "description": "Irereview ng aming team ang inyong application sa loob ng 3-5 business days. Hinahanap namin ang mga kandidatong nagpapakita ng mahusay na English communication skills, pasensya, at sigasig sa pagtuturo.",
+        "details": "Kung naaayon ang inyong application sa aming mga paunang pangangailangan, makatanggap kayo ng email invitation para magpatuloy sa susunod na hakbang."
+      },
+      "step3": {
+        "title": "Video Interview",
+        "description": "Mag-schedule ng 30-45 minutong video interview kasama ang aming hiring team. Ang pag-uusapang ito ay tumutulong sa amin na masuri ang inyong teaching style, communication skills, at cultural fit sa aming platform.",
+        "details": "Sa panahon ng interview, maaaring hilingin sa inyong gumawa ng maikling teaching demonstration para ipakita ang inyong kakayahang mag-engage at mag-educate ng mga estudyante."
+      },
+      "step4": {
+        "title": "Background Check",
+        "description": "Bilang bahagi ng aming commitment sa student safety, lahat ng potential teachers ay sumusailalim sa comprehensive background check. Ang prosesong ito ay karaniwang tumatagal ng 5-7 business days para makumpleto.",
+        "details": "Kailangan ninyong magbigay ng mga identification documents at pahintulutan ang background check process."
+      },
+      "step5": {
+        "title": "Onboarding at Training",
+        "description": "Congratulations! Kapag na-approve na, makikibahagi kayo sa aming comprehensive onboarding program. Kasama dito ang platform training, teaching methodology workshops, at pamiliarization sa aming curriculum.",
+        "details": "Ang training program ay tumatagal ng humigit-kumulang 2-3 araw at sumasaklaw sa lahat ng kailangan ninyong malaman para magtagumpay bilang Top Talks teacher."
+      }
+    },
+    "requirements": {
+      "title": "Ang Hinahanap Namin",
+      "subtitle": "Ang aming mga requirements ay nagsisiguro na bawat estudyante ay makatanggap ng mataas na kalidad na English education mula sa mga qualified at passionate na guro.",
+      "essential": {
+        "title": "Mga Essential Requirements",
+        "items": [
+          "Native o near-native English proficiency",
+          "Bachelor's degree mula sa accredited institution",
+          "Minimum 1 taong teaching o tutoring experience",
+          "Reliable internet connection at tahimik na teaching environment",
+          "Pasensya at sigasig para sa pagtatrabaho kasama ang mga batang nag-aaral"
+        ]
+      },
+      "preferred": {
+        "title": "Mga Preferred Qualifications",
+        "items": [
+          "TEFL, TESOL, o CELTA certification",
+          "Experience sa pagtuturo ng English bilang second language",
+          "Familiarity sa mga online teaching platforms",
+          "Multilingual abilities (lalo na mga Asian languages)",
+          "Creative at engaging teaching methods"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Bakit Piliin ang Top Talks",
+      "subtitle": "Sumali sa platform na pinahahalagahan at sinusuportahan ang mga guro nito ng competitive benefits at positive work environment.",
+      "flexibleSchedule": {
+        "title": "Flexible Schedule",
+        "description": "Itakda ang inyong sariling oras at magturo kung kailan ito pinakaangkop sa inyo. Perpekto para sa full-time teachers o sa mga naghahanap ng karagdagang kita."
+      },
+      "competitivePay": {
+        "title": "Competitive Pay",
+        "description": "Kumita ng competitive hourly rates na may mga oportunidad para sa bonuses base sa student feedback at performance."
+      },
+      "professionalDevelopment": {
+        "title": "Professional Development",
+        "description": "Mag-access ng patuloy na training, workshops, at resources para mapahusay ang inyong teaching skills at career growth."
+      },
+      "globalCommunity": {
+        "title": "Global Community",
+        "description": "Makipag-connect sa mga estudyante mula sa buong mundo at maging bahagi ng diverse, supportive teaching community."
+      },
+      "technicalSupport": {
+        "title": "Technical Support",
+        "description": "Makatanggap ng comprehensive technical support at training para masiguro ang smooth online teaching experiences."
+      },
+      "curriculumProvided": {
+        "title": "Curriculum Provided",
+        "description": "Access sa structured lesson plans at materials, na nagbibigay-daan sa inyong mag-focus sa pagtuturo kaysa sa preparation."
+      }
+    },
+    "cta": {
+      "title": "Handa na Bang Simulang Magturo?",
+      "subtitle": "Sumali sa libu-libong educator na gumagawa ng pagkakaiba sa buhay ng mga estudyante habang ginagawa ang mga rewarding career kasama ang Top Talks.",
+      "note": "May mga tanong? Mag-email sa amin sa teachers@toptalks.com o tumawag sa aming support team."
+    }
+  },
+  "studentServices": {
+    "title": "Matuto ng English nang May Kumpiyansa",
+    "subtitle": "Sumali sa libu-libong estudyante na nag-transform ng kanilang English skills gamit ang aming personalized, masaya, at epektibong approach sa pag-aaral.",
+    "whyChoose": {
+      "title": "Bakit Confident Kami sa Aming mga Service",
+      "subtitle": "Ang aming proven approach at dedication sa student success ay ginawa kaming trusted choice para sa mga pamilya sa buong mundo.",
+      "provenTrack": {
+        "title": "Proven Track Record",
+        "description": "Mahigit 10,000 estudyante na ang nag-improve ng kanilang English kasama namin, na 95% ng mga magulang ay nag-report ng significant progress sa loob ng 3 buwan."
+      },
+      "expertTeachers": {
+        "title": "Expert Teachers",
+        "description": "Ang aming mga guro ay sumusailalim sa rigorous screening at training. May hawak silang teaching certifications at nag-specialize sa pakikipagtrabaho sa mga batang English learners."
+      },
+      "innovativeMethods": {
+        "title": "Innovative Teaching Methods",
+        "description": "Ginagamit namin ang pinakabagong educational technology at proven teaching methodologies na specially designed para sa learning patterns ng mga bata."
+      },
+      "satisfaction": {
+        "title": "Satisfaction Guarantee",
+        "description": "Napaka-confident namin sa aming service na nag-offer kami ng 30-day money-back guarantee kung hindi kayo completely satisfied."
+      }
+    },
+    "services": {
+      "title": "Ano ang Kasama sa Aming mga Service",
+      "subtitle": "Bawat aspeto ng aming service ay dinisenyo para magbigay ng pinakamahusay na learning experience para sa inyong anak.",
+      "personalizedLearning": {
+        "title": "Personalized Learning",
+        "description": "Bawat lesson ay tailored sa individual learning pace, interests, at goals ng inyong anak. Ang aming mga guro ay nag-adapt ng kanilang teaching style para tumugma sa unique needs ng inyong anak."
+      },
+      "qualifiedTeachers": {
+        "title": "Qualified Native Teachers",
+        "description": "Lahat ng aming mga guro ay native English speakers na may teaching certifications at extensive experience sa pakikipagtrabaho sa mga batang nag-aaral mula sa diverse backgrounds."
+      },
+      "interactivePlatform": {
+        "title": "Interactive Learning Platform",
+        "description": "Ang aming custom-built platform ay kasama ang mga games, interactive exercises, virtual whiteboards, at multimedia content para panatilihing engaged ang mga estudyante sa buong duration ng kanilang mga lesson."
+      },
+      "flexibleScheduling": {
+        "title": "Flexible Scheduling",
+        "description": "Mag-book ng mga lesson sa mga oras na gumana para sa inyong pamilya. Available ang aming mga guro sa iba't ibang time zones para ma-accommodate ang inyong schedule."
+      },
+      "progressTracking": {
+        "title": "Progress Tracking",
+        "description": "I-monitor ang improvement ng inyong anak gamit ang detailed progress reports, skill assessments, at regular feedback mula sa kanilang dedicated teacher."
+      },
+      "familySupport": {
+        "title": "Family Support",
+        "description": "Ang mga magulang ay nakatanggap ng regular updates, progress reports, at guidance kung paano susuportahan ang English learning journey ng kanilang anak sa bahay."
+      }
+    },
+    "pricing": {
+      "title": "Piliin ang Inyong Learning Plan",
+      "subtitle": "Flexible pricing options na dinisenyo para sa pangangailangan at budget ng bawat pamilya. Lahat ng mga plans ay kasama ang aming core features nang walang hidden fees.",
+      "basic": {
+        "name": "Basic Plan",
+        "price": "$29",
+        "period": "bawat buwan",
+        "description": "Perpekto para sa mga beginner na nagsisimula sa kanilang English journey",
+        "buttonText": "Simulan"
+      },
+      "standard": {
+        "name": "Standard Plan",
+        "price": "$49",
+        "period": "bawat buwan",
+        "description": "Pinakasikat na choice para sa consistent learning progress",
+        "buttonText": "Most Popular"
+      },
+      "premium": {
+        "name": "Premium Plan",
+        "price": "$79",
+        "period": "bawat buwan",
+        "description": "Intensive learning para sa mabilis na English improvement",
+        "buttonText": "Go Premium"
+      },
+      "trialNote": "Lahat ng mga plans ay kasama ang 7-day free trial. Cancel anytime nang walang mga tanong.",
+      "customNote": "Kailangan ng custom plan para sa maraming anak? Makipag-ugnayan sa amin para sa family discounts."
+    },
+    "howToStart": {
+      "title": "Paano Maging Estudyante",
+      "subtitle": "Ang pagsisimula ay simple at tumatagal lang ng ilang minuto. Ito kung paano nagsisimula ang inyong English learning journey.",
+      "step1": {
+        "title": "Sign Up at Assessment",
+        "description": "Gumawa ng inyong account at kumpletuhin ang mabilis na 10-minute assessment para matulungan kaming maintindihan ang inyong current English level at learning goals.",
+        "details": "Ang assessment na ito ay tumutulong sa amin na i-match kayo sa perpektong teacher at i-customize ang inyong learning experience mula sa unang araw."
+      },
+      "step2": {
+        "title": "Kilalanin ang Inyong Teacher",
+        "description": "I-match namin kayo sa qualified teacher base sa inyong assessment results, learning style, at schedule preferences.",
+        "details": "I-schedule ang inyong unang free trial lesson para makilala ang inyong teacher at ma-experience ang aming interactive learning platform."
+      },
+      "step3": {
+        "title": "Simulang Mag-aral",
+        "description": "Simulan ang inyong personalized English learning journey gamit ang regular one-on-one lessons, interactive exercises, at progress tracking.",
+        "details": "Ang inyong teacher ay gagawa ng customized curriculum base sa inyong mga goals, kung ito man ay improving conversation skills, grammar, o exam preparation."
+      }
+    },
+    "successStories": {
+      "title": "Mga Student Success Stories",
+      "subtitle": "Tingnan kung paano nag-transform ang aming mga estudyante ng kanilang English skills at naabot ang kanilang learning goals."
+    },
+    "cta": {
+      "title": "Handa na Bang Simulan ang Inyong English Journey?",
+      "subtitle": "Sumali sa libu-libong successful students na nag-improve ng kanilang English skills kasama ang Top Talks. Simulan ang inyong free trial ngayon!",
+      "note": "Walang credit card na kailangan para sa trial • Cancel anytime • 30-day money-back guarantee"
     }
   },
   "forms": {
@@ -101,6 +322,12 @@
   "footer": {
     "copyright": "© 2024 Top Talks. Lahat ng karapatan ay nakalaan.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "brandDescription": "Ginagawa namin ang English learning na masayang autumn adventure para sa mga estudyante at guro sa buong mundo.",
+    "madeWithCare": "Ginawa nang may malasakit para sa mga nag-aaral sa lahat ng dako",
+    "quickLinks": "Mga Mabibilis na Link",
+    "ourCommunity": "Aming Komunidad",
+    "followUs": "I-follow kami sa social media",
+    "seasonalMessage": "Ang pag-aaral ng English ay parang pagkolekta ng mga autumn leaves - bawat salitang naiipon ninyo ay ginagawa ang inyong kaalaman na mas maganda."
   }
 }

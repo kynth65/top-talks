@@ -5,22 +5,37 @@
     "submit": "Submit",
     "cancel": "Cancel",
     "continue": "Continue",
-    "back": "Back"
+    "back": "Back",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "applyNow": "Apply Now",
+    "contactUs": "Contact Us",
+    "startFreeTrial": "Start Free Trial",
+    "viewPricing": "View Pricing",
+    "scheduleConsultation": "Schedule Consultation",
+    "startTeaching": "Start Teaching"
   },
   "navigation": {
     "home": "Home",
     "about": "About",
     "contact": "Contact",
     "login": "Login",
-    "register": "Sign Up"
+    "register": "Sign Up",
+    "howItWorks": "How It Works",
+    "reviews": "Reviews",
+    "forStudents": "For Students",
+    "forTeachers": "For Teachers"
   },
   "hero": {
     "headline": "Learn English the Fun Way!",
     "subheading": "Join thousands of learners on their autumn adventure",
     "cta_student": "Start Learning",
-    "cta_tutor": "Teach English"
+    "cta_tutor": "Teach English",
+    "encouragement": "Your autumn learning adventure starts here!"
   },
   "roleSelection": {
+    "title": "Choose Your Autumn Adventure",
+    "subtitle": "Whether you're here to learn or teach, we have the perfect path for your English journey",
     "student": {
       "title": "Learn English",
       "benefit1": "Make friends from around the world!",
@@ -34,7 +49,8 @@
       "benefit2": "Help kids grow and learn!",
       "benefit3": "Flexible teaching schedule!",
       "cta": "Start Teaching"
-    }
+    },
+    "encouragement": "Every great journey begins with a single step"
   },
   "howItWorks": {
     "students": {
@@ -69,10 +85,215 @@
     }
   },
   "socialProof": {
+    "title": "What Our Students Say",
+    "subtitle": "Join thousands of happy learners on their autumn adventure",
     "statistics": {
       "learners": "10,000+ Happy Learners",
       "teachers": "500+ Caring Teachers",
-      "countries": "50+ Countries Served"
+      "countries": "50+ Countries Served",
+      "learnersDescription": "Students from around the world",
+      "teachersDescription": "Professional & friendly instructors",
+      "countriesDescription": "Global learning community"
+    },
+    "featuredTeachersTitle": "Meet Our Amazing Teachers",
+    "featuredTeachersSubtitle": "Experienced, caring educators ready to guide your learning journey",
+    "encouragement": "Join our growing family of learners and teachers!"
+  },
+  "startTeaching": {
+    "title": "Start Your Teaching Journey",
+    "subtitle": "Join our community of passionate educators and help students around the world learn English in a fun, engaging environment.",
+    "howToApply": {
+      "title": "How to Apply",
+      "subtitle": "Our straightforward application process ensures we find the best teachers who share our passion for education.",
+      "step1": {
+        "title": "Submit Your Application",
+        "description": "Fill out our comprehensive application form with your personal information, teaching experience, and educational background. Make sure to provide accurate and detailed information to help us understand your qualifications.",
+        "details": "Required documents include your resume, teaching certificates (if any), and a brief cover letter explaining why you want to teach with Top Talks."
+      },
+      "step2": {
+        "title": "Initial Screening",
+        "description": "Our team will review your application within 3-5 business days. We look for candidates who demonstrate excellent English communication skills, patience, and enthusiasm for teaching.",
+        "details": "If your application meets our initial requirements, you will receive an email invitation to proceed to the next step."
+      },
+      "step3": {
+        "title": "Video Interview",
+        "description": "Schedule a 30-45 minute video interview with our hiring team. This conversation helps us assess your teaching style, communication skills, and cultural fit with our platform.",
+        "details": "During the interview, you may be asked to conduct a brief teaching demonstration to showcase your ability to engage and educate students."
+      },
+      "step4": {
+        "title": "Background Check",
+        "description": "As part of our commitment to student safety, all potential teachers undergo a comprehensive background check. This process typically takes 5-7 business days to complete.",
+        "details": "You will need to provide identification documents and authorize the background check process."
+      },
+      "step5": {
+        "title": "Onboarding and Training",
+        "description": "Congratulations! Once approved, you will participate in our comprehensive onboarding program. This includes platform training, teaching methodology workshops, and familiarization with our curriculum.",
+        "details": "The training program takes approximately 2-3 days and covers everything you need to know to succeed as a Top Talks teacher."
+      }
+    },
+    "requirements": {
+      "title": "What We Look For",
+      "subtitle": "Our requirements ensure that every student receives high-quality English education from qualified and passionate teachers.",
+      "essential": {
+        "title": "Essential Requirements",
+        "items": [
+          "Native or near-native English proficiency",
+          "Bachelor's degree from an accredited institution",
+          "Minimum 1 year teaching or tutoring experience",
+          "Reliable internet connection and quiet teaching environment",
+          "Patience and enthusiasm for working with young learners"
+        ]
+      },
+      "preferred": {
+        "title": "Preferred Qualifications",
+        "items": [
+          "TEFL, TESOL, or CELTA certification",
+          "Experience teaching English as a second language",
+          "Familiarity with online teaching platforms",
+          "Multilingual abilities (especially Asian languages)",
+          "Creative and engaging teaching methods"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Top Talks",
+      "subtitle": "Join a platform that values and supports its teachers with competitive benefits and a positive work environment.",
+      "flexibleSchedule": {
+        "title": "Flexible Schedule",
+        "description": "Set your own hours and teach when it works best for you. Perfect for full-time teachers or those looking for additional income."
+      },
+      "competitivePay": {
+        "title": "Competitive Pay",
+        "description": "Earn competitive hourly rates with opportunities for bonuses based on student feedback and performance."
+      },
+      "professionalDevelopment": {
+        "title": "Professional Development",
+        "description": "Access ongoing training, workshops, and resources to enhance your teaching skills and career growth."
+      },
+      "globalCommunity": {
+        "title": "Global Community",
+        "description": "Connect with students from around the world and be part of a diverse, supportive teaching community."
+      },
+      "technicalSupport": {
+        "title": "Technical Support",
+        "description": "Receive comprehensive technical support and training to ensure smooth online teaching experiences."
+      },
+      "curriculumProvided": {
+        "title": "Curriculum Provided",
+        "description": "Access to structured lesson plans and materials, allowing you to focus on teaching rather than preparation."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Teaching?",
+      "subtitle": "Join thousands of educators who are making a difference in students' lives while building rewarding careers with Top Talks.",
+      "note": "Questions? Email us at teachers@toptalks.com or call our support team."
+    }
+  },
+  "studentServices": {
+    "title": "Learn English with Confidence",
+    "subtitle": "Join thousands of students who have transformed their English skills with our personalized, fun, and effective learning approach.",
+    "whyChoose": {
+      "title": "Why We're Confident in Our Services",
+      "subtitle": "Our proven approach and dedication to student success have made us a trusted choice for families worldwide.",
+      "provenTrack": {
+        "title": "Proven Track Record",
+        "description": "Over 10,000 students have improved their English with us, with 95% of parents reporting significant progress within 3 months."
+      },
+      "expertTeachers": {
+        "title": "Expert Teachers",
+        "description": "Our teachers undergo rigorous screening and training. They hold teaching certifications and specialize in working with young English learners."
+      },
+      "innovativeMethods": {
+        "title": "Innovative Teaching Methods",
+        "description": "We use the latest educational technology and proven teaching methodologies designed specifically for children's learning patterns."
+      },
+      "satisfaction": {
+        "title": "Satisfaction Guarantee",
+        "description": "We're so confident in our service that we offer a 30-day money-back guarantee if you're not completely satisfied."
+      }
+    },
+    "services": {
+      "title": "What's Included in Our Services",
+      "subtitle": "Every aspect of our service is designed to provide the best possible learning experience for your child.",
+      "personalizedLearning": {
+        "title": "Personalized Learning",
+        "description": "Every lesson is tailored to your child's individual learning pace, interests, and goals. Our teachers adapt their teaching style to match your child's unique needs."
+      },
+      "qualifiedTeachers": {
+        "title": "Qualified Native Teachers",
+        "description": "All our teachers are native English speakers with teaching certifications and extensive experience working with young learners from diverse backgrounds."
+      },
+      "interactivePlatform": {
+        "title": "Interactive Learning Platform",
+        "description": "Our custom-built platform includes games, interactive exercises, virtual whiteboards, and multimedia content to keep students engaged throughout their lessons."
+      },
+      "flexibleScheduling": {
+        "title": "Flexible Scheduling",
+        "description": "Book lessons at times that work for your family. Our teachers are available across different time zones to accommodate your schedule."
+      },
+      "progressTracking": {
+        "title": "Progress Tracking",
+        "description": "Monitor your child's improvement with detailed progress reports, skill assessments, and regular feedback from their dedicated teacher."
+      },
+      "familySupport": {
+        "title": "Family Support",
+        "description": "Parents receive regular updates, progress reports, and guidance on how to support their child's English learning journey at home."
+      }
+    },
+    "pricing": {
+      "title": "Choose Your Learning Plan",
+      "subtitle": "Flexible pricing options designed to fit every family's needs and budget. All plans include our core features with no hidden fees.",
+      "basic": {
+        "name": "Basic Plan",
+        "price": "$29",
+        "period": "per month",
+        "description": "Perfect for beginners starting their English journey",
+        "buttonText": "Get Started"
+      },
+      "standard": {
+        "name": "Standard Plan",
+        "price": "$49",
+        "period": "per month",
+        "description": "Most popular choice for consistent learning progress",
+        "buttonText": "Most Popular"
+      },
+      "premium": {
+        "name": "Premium Plan",
+        "price": "$79",
+        "period": "per month",
+        "description": "Intensive learning for rapid English improvement",
+        "buttonText": "Go Premium"
+      },
+      "trialNote": "All plans include a 7-day free trial. Cancel anytime with no questions asked.",
+      "customNote": "Need a custom plan for multiple children? Contact us for family discounts."
+    },
+    "howToStart": {
+      "title": "How to Become a Student",
+      "subtitle": "Getting started is simple and takes just a few minutes. Here's how your English learning journey begins.",
+      "step1": {
+        "title": "Sign Up & Assessment",
+        "description": "Create your account and complete a quick 10-minute assessment to help us understand your current English level and learning goals.",
+        "details": "This assessment helps us match you with the perfect teacher and customize your learning experience from day one."
+      },
+      "step2": {
+        "title": "Meet Your Teacher",
+        "description": "We'll match you with a qualified teacher based on your assessment results, learning style, and schedule preferences.",
+        "details": "Schedule your first free trial lesson to meet your teacher and experience our interactive learning platform."
+      },
+      "step3": {
+        "title": "Start Learning",
+        "description": "Begin your personalized English learning journey with regular one-on-one lessons, interactive exercises, and progress tracking.",
+        "details": "Your teacher will create a customized curriculum based on your goals, whether it's improving conversation skills, grammar, or exam preparation."
+      }
+    },
+    "successStories": {
+      "title": "Student Success Stories",
+      "subtitle": "See how our students have transformed their English skills and achieved their learning goals."
+    },
+    "cta": {
+      "title": "Ready to Start Your English Journey?",
+      "subtitle": "Join thousands of successful students who have improved their English skills with Top Talks. Start your free trial today!",
+      "note": "No credit card required for trial • Cancel anytime • 30-day money-back guarantee"
     }
   },
   "forms": {
@@ -101,6 +322,12 @@
   "footer": {
     "copyright": "© 2024 Top Talks. All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "brandDescription": "Making English learning a fun autumn adventure for students and teachers around the world.",
+    "madeWithCare": "Made with care for learners everywhere",
+    "quickLinks": "Quick Links",
+    "ourCommunity": "Our Community",
+    "followUs": "Follow us on social media",
+    "seasonalMessage": "Learning English is like collecting autumn leaves - every word you gather makes your knowledge more beautiful."
   }
 }

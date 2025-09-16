@@ -5,36 +5,52 @@
     "submit": "Enviar",
     "cancel": "Cancelar",
     "continue": "Continuar",
-    "back": "Atrás"
+    "back": "Atrás",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar",
+    "applyNow": "Aplicar Ahora",
+    "contactUs": "Contáctanos",
+    "startFreeTrial": "Comenzar Prueba Gratuita",
+    "viewPricing": "Ver Precios",
+    "scheduleConsultation": "Programar Consulta",
+    "startTeaching": "Comenzar a Enseñar"
   },
   "navigation": {
     "home": "Inicio",
     "about": "Acerca de",
     "contact": "Contacto",
     "login": "Iniciar Sesión",
-    "register": "Registrarse"
+    "register": "Registrarse",
+    "howItWorks": "Cómo Funciona",
+    "reviews": "Reseñas",
+    "forStudents": "Para Estudiantes",
+    "forTeachers": "Para Maestros"
   },
   "hero": {
     "headline": "¡Aprende Inglés de Manera Divertida!",
     "subheading": "Únete a miles de estudiantes en su aventura de otoño",
-    "cta_student": "Comenzar",
-    "cta_tutor": "Enseñar"
+    "cta_student": "Comenzar a Aprender",
+    "cta_tutor": "Enseñar Inglés",
+    "encouragement": "¡Tu aventura de aprendizaje de otoño comienza aquí!"
   },
   "roleSelection": {
+    "title": "Elige Tu Aventura de Otoño",
+    "subtitle": "Ya sea que estés aquí para aprender o enseñar, tenemos el camino perfecto para tu viaje del inglés",
     "student": {
       "title": "Aprender Inglés",
       "benefit1": "¡Haz amigos de todo el mundo!",
       "benefit2": "¡Juega juegos divertidos mientras aprendes!",
       "benefit3": "¡Estudia con maestros cariñosos!",
-      "cta": "Comenzar"
+      "cta": "Comenzar a Aprender"
     },
     "tutor": {
       "title": "Enseña y Comparte Alegría",
       "benefit1": "¡Comparte tu amor por el inglés!",
       "benefit2": "¡Ayuda a los niños a crecer y aprender!",
       "benefit3": "¡Horario de enseñanza flexible!",
-      "cta": "Enseñar"
-    }
+      "cta": "Comenzar a Enseñar"
+    },
+    "encouragement": "Todo gran viaje comienza con un solo paso"
   },
   "howItWorks": {
     "students": {
@@ -69,10 +85,215 @@
     }
   },
   "socialProof": {
+    "title": "Lo Que Dicen Nuestros Estudiantes",
+    "subtitle": "Únete a miles de estudiantes felices en su aventura de otoño",
     "statistics": {
       "learners": "10,000+ Estudiantes Felices",
       "teachers": "500+ Maestros Cariñosos",
-      "countries": "50+ Países Atendidos"
+      "countries": "50+ Países Atendidos",
+      "learnersDescription": "Estudiantes de todo el mundo",
+      "teachersDescription": "Instructores profesionales y amigables",
+      "countriesDescription": "Comunidad global de aprendizaje"
+    },
+    "featuredTeachersTitle": "Conoce a Nuestros Increíbles Maestros",
+    "featuredTeachersSubtitle": "Educadores experimentados y cariñosos listos para guiar tu viaje de aprendizaje",
+    "encouragement": "¡Únete a nuestra creciente familia de estudiantes y maestros!"
+  },
+  "startTeaching": {
+    "title": "Comienza Tu Viaje de Enseñanza",
+    "subtitle": "Únete a nuestra comunidad de educadores apasionados y ayuda a estudiantes de todo el mundo a aprender inglés en un ambiente divertido y atractivo.",
+    "howToApply": {
+      "title": "Cómo Aplicar",
+      "subtitle": "Nuestro proceso de solicitud directo asegura que encontremos a los mejores maestros que comparten nuestra pasión por la educación.",
+      "step1": {
+        "title": "Envía Tu Solicitud",
+        "description": "Completa nuestro formulario de solicitud integral con tu información personal, experiencia docente y antecedentes educativos. Asegúrate de proporcionar información precisa y detallada para ayudarnos a entender tus calificaciones.",
+        "details": "Los documentos requeridos incluyen tu currículum, certificados de enseñanza (si los tienes), y una carta de presentación breve explicando por qué quieres enseñar con Top Talks."
+      },
+      "step2": {
+        "title": "Evaluación Inicial",
+        "description": "Nuestro equipo revisará tu solicitud dentro de 3-5 días hábiles. Buscamos candidatos que demuestren excelentes habilidades de comunicación en inglés, paciencia y entusiasmo por la enseñanza.",
+        "details": "Si tu solicitud cumple con nuestros requisitos iniciales, recibirás una invitación por email para proceder al siguiente paso."
+      },
+      "step3": {
+        "title": "Entrevista por Video",
+        "description": "Programa una entrevista por video de 30-45 minutos con nuestro equipo de contratación. Esta conversación nos ayuda a evaluar tu estilo de enseñanza, habilidades de comunicación y compatibilidad cultural con nuestra plataforma.",
+        "details": "Durante la entrevista, es posible que te pidan realizar una breve demostración de enseñanza para mostrar tu capacidad de involucrar y educar a los estudiantes."
+      },
+      "step4": {
+        "title": "Verificación de Antecedentes",
+        "description": "Como parte de nuestro compromiso con la seguridad de los estudiantes, todos los maestros potenciales se someten a una verificación integral de antecedentes. Este proceso típicamente toma 5-7 días hábiles para completarse.",
+        "details": "Necesitarás proporcionar documentos de identificación y autorizar el proceso de verificación de antecedentes."
+      },
+      "step5": {
+        "title": "Incorporación y Entrenamiento",
+        "description": "¡Felicidades! Una vez aprobado, participarás en nuestro programa integral de incorporación. Esto incluye entrenamiento de plataforma, talleres de metodología de enseñanza y familiarización con nuestro plan de estudios.",
+        "details": "El programa de entrenamiento toma aproximadamente 2-3 días y cubre todo lo que necesitas saber para tener éxito como maestro de Top Talks."
+      }
+    },
+    "requirements": {
+      "title": "Lo Que Buscamos",
+      "subtitle": "Nuestros requisitos aseguran que cada estudiante reciba educación de inglés de alta calidad de maestros calificados y apasionados.",
+      "essential": {
+        "title": "Requisitos Esenciales",
+        "items": [
+          "Dominio nativo o casi nativo del inglés",
+          "Licenciatura de una institución acreditada",
+          "Mínimo 1 año de experiencia enseñando o tutorías",
+          "Conexión confiable a internet y ambiente tranquilo para enseñar",
+          "Paciencia y entusiasmo para trabajar con jóvenes estudiantes"
+        ]
+      },
+      "preferred": {
+        "title": "Calificaciones Preferidas",
+        "items": [
+          "Certificación TEFL, TESOL o CELTA",
+          "Experiencia enseñando inglés como segundo idioma",
+          "Familiaridad con plataformas de enseñanza en línea",
+          "Habilidades multilingües (especialmente idiomas asiáticos)",
+          "Métodos de enseñanza creativos y atractivos"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Por Qué Elegir Top Talks",
+      "subtitle": "Únete a una plataforma que valora y apoya a sus maestros con beneficios competitivos y un ambiente de trabajo positivo.",
+      "flexibleSchedule": {
+        "title": "Horario Flexible",
+        "description": "Establece tus propios horarios y enseña cuando te convenga. Perfecto para maestros de tiempo completo o aquellos que buscan ingresos adicionales."
+      },
+      "competitivePay": {
+        "title": "Pago Competitivo",
+        "description": "Gana tarifas por hora competitivas con oportunidades de bonos basados en la retroalimentación de estudiantes y rendimiento."
+      },
+      "professionalDevelopment": {
+        "title": "Desarrollo Profesional",
+        "description": "Accede a entrenamiento continuo, talleres y recursos para mejorar tus habilidades de enseñanza y crecimiento profesional."
+      },
+      "globalCommunity": {
+        "title": "Comunidad Global",
+        "description": "Conéctate con estudiantes de todo el mundo y sé parte de una comunidad de enseñanza diversa y solidaria."
+      },
+      "technicalSupport": {
+        "title": "Soporte Técnico",
+        "description": "Recibe soporte técnico integral y entrenamiento para asegurar experiencias de enseñanza en línea sin problemas."
+      },
+      "curriculumProvided": {
+        "title": "Plan de Estudios Proporcionado",
+        "description": "Acceso a planes de lecciones estructurados y materiales, permitiéndote enfocarte en enseñar en lugar de preparación."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar a Enseñar?",
+      "subtitle": "Únete a miles de educadores que están haciendo una diferencia en las vidas de los estudiantes mientras construyen carreras gratificantes con Top Talks.",
+      "note": "¿Preguntas? Envíanos un email a teachers@toptalks.com o llama a nuestro equipo de soporte."
+    }
+  },
+  "studentServices": {
+    "title": "Aprende Inglés con Confianza",
+    "subtitle": "Únete a miles de estudiantes que han transformado sus habilidades de inglés con nuestro enfoque personalizado, divertido y efectivo de aprendizaje.",
+    "whyChoose": {
+      "title": "Por Qué Tenemos Confianza en Nuestros Servicios",
+      "subtitle": "Nuestro enfoque probado y dedicación al éxito del estudiante nos han hecho una opción confiable para familias en todo el mundo.",
+      "provenTrack": {
+        "title": "Historial Comprobado",
+        "description": "Más de 10,000 estudiantes han mejorado su inglés con nosotros, con 95% de padres reportando progreso significativo dentro de 3 meses."
+      },
+      "expertTeachers": {
+        "title": "Maestros Expertos",
+        "description": "Nuestros maestros pasan por una evaluación y entrenamiento riguroso. Tienen certificaciones de enseñanza y se especializan en trabajar con jóvenes estudiantes de inglés."
+      },
+      "innovativeMethods": {
+        "title": "Métodos de Enseñanza Innovadores",
+        "description": "Usamos la tecnología educativa más reciente y metodologías de enseñanza probadas diseñadas específicamente para los patrones de aprendizaje de los niños."
+      },
+      "satisfaction": {
+        "title": "Garantía de Satisfacción",
+        "description": "Estamos tan seguros de nuestro servicio que ofrecemos una garantía de devolución de dinero de 30 días si no estás completamente satisfecho."
+      }
+    },
+    "services": {
+      "title": "Qué Está Incluido en Nuestros Servicios",
+      "subtitle": "Cada aspecto de nuestro servicio está diseñado para proporcionar la mejor experiencia de aprendizaje posible para tu hijo.",
+      "personalizedLearning": {
+        "title": "Aprendizaje Personalizado",
+        "description": "Cada lección está adaptada al ritmo de aprendizaje individual de tu hijo, intereses y objetivos. Nuestros maestros adaptan su estilo de enseñanza para coincidir con las necesidades únicas de tu hijo."
+      },
+      "qualifiedTeachers": {
+        "title": "Maestros Nativos Calificados",
+        "description": "Todos nuestros maestros son hablantes nativos de inglés con certificaciones de enseñanza y amplia experiencia trabajando con jóvenes estudiantes de diversos antecedentes."
+      },
+      "interactivePlatform": {
+        "title": "Plataforma de Aprendizaje Interactiva",
+        "description": "Nuestra plataforma construida a medida incluye juegos, ejercicios interactivos, pizarras virtuales y contenido multimedia para mantener a los estudiantes involucrados durante sus lecciones."
+      },
+      "flexibleScheduling": {
+        "title": "Programación Flexible",
+        "description": "Reserva lecciones en horarios que funcionen para tu familia. Nuestros maestros están disponibles en diferentes zonas horarias para acomodar tu horario."
+      },
+      "progressTracking": {
+        "title": "Seguimiento de Progreso",
+        "description": "Monitorea la mejora de tu hijo con reportes detallados de progreso, evaluaciones de habilidades y retroalimentación regular de su maestro dedicado."
+      },
+      "familySupport": {
+        "title": "Apoyo Familiar",
+        "description": "Los padres reciben actualizaciones regulares, reportes de progreso y orientación sobre cómo apoyar el viaje de aprendizaje de inglés de su hijo en casa."
+      }
+    },
+    "pricing": {
+      "title": "Elige Tu Plan de Aprendizaje",
+      "subtitle": "Opciones de precios flexibles diseñadas para adaptarse a las necesidades y presupuesto de cada familia. Todos los planes incluyen nuestras características principales sin tarifas ocultas.",
+      "basic": {
+        "name": "Plan Básico",
+        "price": "$29",
+        "period": "por mes",
+        "description": "Perfecto para principiantes que comienzan su viaje de inglés",
+        "buttonText": "Comenzar"
+      },
+      "standard": {
+        "name": "Plan Estándar",
+        "price": "$49",
+        "period": "por mes",
+        "description": "La opción más popular para progreso de aprendizaje consistente",
+        "buttonText": "Más Popular"
+      },
+      "premium": {
+        "name": "Plan Premium",
+        "price": "$79",
+        "period": "por mes",
+        "description": "Aprendizaje intensivo para mejora rápida del inglés",
+        "buttonText": "Ir Premium"
+      },
+      "trialNote": "Todos los planes incluyen una prueba gratuita de 7 días. Cancela en cualquier momento sin preguntas.",
+      "customNote": "¿Necesitas un plan personalizado para múltiples niños? Contáctanos para descuentos familiares."
+    },
+    "howToStart": {
+      "title": "Cómo Convertirse en Estudiante",
+      "subtitle": "Comenzar es simple y toma solo unos minutos. Así es como comienza tu viaje de aprendizaje de inglés.",
+      "step1": {
+        "title": "Registro y Evaluación",
+        "description": "Crea tu cuenta y completa una evaluación rápida de 10 minutos para ayudarnos a entender tu nivel actual de inglés y objetivos de aprendizaje.",
+        "details": "Esta evaluación nos ayuda a emparejarte con el maestro perfecto y personalizar tu experiencia de aprendizaje desde el primer día."
+      },
+      "step2": {
+        "title": "Conoce a Tu Maestro",
+        "description": "Te emparejaremos con un maestro calificado basado en los resultados de tu evaluación, estilo de aprendizaje y preferencias de horario.",
+        "details": "Programa tu primera lección de prueba gratuita para conocer a tu maestro y experimentar nuestra plataforma de aprendizaje interactiva."
+      },
+      "step3": {
+        "title": "Comenzar a Aprender",
+        "description": "Comienza tu viaje de aprendizaje de inglés personalizado con lecciones regulares uno a uno, ejercicios interactivos y seguimiento de progreso.",
+        "details": "Tu maestro creará un plan de estudios personalizado basado en tus objetivos, ya sea mejorar habilidades de conversación, gramática o preparación para exámenes."
+      }
+    },
+    "successStories": {
+      "title": "Historias de Éxito de Estudiantes",
+      "subtitle": "Ve cómo nuestros estudiantes han transformado sus habilidades de inglés y logrado sus objetivos de aprendizaje."
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar Tu Viaje de Inglés?",
+      "subtitle": "Únete a miles de estudiantes exitosos que han mejorado sus habilidades de inglés con Top Talks. ¡Comienza tu prueba gratuita hoy!",
+      "note": "No se requiere tarjeta de crédito para la prueba • Cancela en cualquier momento • Garantía de devolución de dinero de 30 días"
     }
   },
   "forms": {
@@ -101,6 +322,12 @@
   "footer": {
     "copyright": "© 2024 Top Talks. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio"
+    "terms": "Términos de Servicio",
+    "brandDescription": "Haciendo del aprendizaje de inglés una aventura de otoño divertida para estudiantes y maestros de todo el mundo.",
+    "madeWithCare": "Hecho con cariño para estudiantes de todas partes",
+    "quickLinks": "Enlaces Rápidos",
+    "ourCommunity": "Nuestra Comunidad",
+    "followUs": "Síguenos en redes sociales",
+    "seasonalMessage": "Aprender inglés es como recolectar hojas de otoño: cada palabra que reúnes hace tu conocimiento más hermoso."
   }
 }

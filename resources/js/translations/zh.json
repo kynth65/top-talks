@@ -5,22 +5,37 @@
     "submit": "提交",
     "cancel": "取消",
     "continue": "继续",
-    "back": "返回"
+    "back": "返回",
+    "learnMore": "了解更多",
+    "getStarted": "开始使用",
+    "applyNow": "立即申请",
+    "contactUs": "联系我们",
+    "startFreeTrial": "开始免费试用",
+    "viewPricing": "查看价格",
+    "scheduleConsultation": "预约咨询",
+    "startTeaching": "开始教学"
   },
   "navigation": {
     "home": "首页",
     "about": "关于我们",
     "contact": "联系我们",
     "login": "登录",
-    "register": "注册"
+    "register": "注册",
+    "howItWorks": "如何运作",
+    "reviews": "评价",
+    "forStudents": "学生专区",
+    "forTeachers": "教师专区"
   },
   "hero": {
     "headline": "有趣地学英语！",
     "subheading": "和成千上万的学习者一起开启秋天的冒险",
     "cta_student": "开始学习",
-    "cta_tutor": "开始教学"
+    "cta_tutor": "开始教学",
+    "encouragement": "您的秋日学习冒险从这里开始！"
   },
   "roleSelection": {
+    "title": "选择您的秋日冒险",
+    "subtitle": "无论您是来学习还是教学，我们都有完美的英语学习路径",
     "student": {
       "title": "学习英语",
       "benefit1": "结交来自世界各地的朋友！",
@@ -34,7 +49,8 @@
       "benefit2": "帮助孩子们成长学习！",
       "benefit3": "灵活的教学时间！",
       "cta": "开始教学"
-    }
+    },
+    "encouragement": "千里之行，始于足下"
   },
   "howItWorks": {
     "students": {
@@ -69,10 +85,215 @@
     }
   },
   "socialProof": {
+    "title": "学生们的评价",
+    "subtitle": "加入成千上万快乐学习者的秋日冒险",
     "statistics": {
       "learners": "10,000+ 快乐的学习者",
       "teachers": "500+ 关爱的老师",
-      "countries": "50+ 服务国家"
+      "countries": "50+ 服务国家",
+      "learnersDescription": "来自世界各地的学生",
+      "teachersDescription": "专业友好的教师",
+      "countriesDescription": "全球学习社区"
+    },
+    "featuredTeachersTitle": "认识我们优秀的老师",
+    "featuredTeachersSubtitle": "经验丰富、关爱学生的教育工作者，随时准备指导您的学习之旅",
+    "encouragement": "加入我们不断壮大的学习者和教师家庭！"
+  },
+  "startTeaching": {
+    "title": "开始您的教学之旅",
+    "subtitle": "加入我们充满激情的教育工作者社区，帮助世界各地的学生在有趣、互动的环境中学习英语。",
+    "howToApply": {
+      "title": "如何申请",
+      "subtitle": "我们简单明了的申请流程确保找到与我们共享教育热情的最佳教师。",
+      "step1": {
+        "title": "提交申请",
+        "description": "填写我们的综合申请表，包括您的个人信息、教学经验和教育背景。请确保提供准确详细的信息，帮助我们了解您的资质。",
+        "details": "所需文件包括您的简历、教学证书（如有）以及简要说明您为什么想在Top Talks教学的求职信。"
+      },
+      "step2": {
+        "title": "初步筛选",
+        "description": "我们的团队将在3-5个工作日内审核您的申请。我们寻找具有出色英语沟通技能、耐心和教学热情的候选人。",
+        "details": "如果您的申请符合我们的初步要求，您将收到电子邮件邀请进入下一步。"
+      },
+      "step3": {
+        "title": "视频面试",
+        "description": "与我们的招聘团队安排30-45分钟的视频面试。这次对话帮助我们评估您的教学风格、沟通技能以及与我们平台的文化契合度。",
+        "details": "在面试过程中，您可能会被要求进行简短的教学演示，展示您吸引和教育学生的能力。"
+      },
+      "step4": {
+        "title": "背景调查",
+        "description": "作为我们对学生安全承诺的一部分，所有潜在教师都要接受全面的背景调查。这个过程通常需要5-7个工作日完成。",
+        "details": "您需要提供身份证明文件并授权背景调查过程。"
+      },
+      "step5": {
+        "title": "入职培训",
+        "description": "恭喜！一旦获得批准，您将参加我们的综合入职计划。这包括平台培训、教学方法研讨会和课程熟悉。",
+        "details": "培训计划大约需要2-3天，涵盖成为Top Talks教师成功所需的一切知识。"
+      }
+    },
+    "requirements": {
+      "title": "我们寻找什么",
+      "subtitle": "我们的要求确保每个学生都能从合格且充满激情的教师那里接受高质量的英语教育。",
+      "essential": {
+        "title": "基本要求",
+        "items": [
+          "母语或接近母语的英语水平",
+          "认可机构的学士学位",
+          "至少1年教学或辅导经验",
+          "可靠的网络连接和安静的教学环境",
+          "与年轻学习者合作的耐心和热情"
+        ]
+      },
+      "preferred": {
+        "title": "优先资格",
+        "items": [
+          "TEFL、TESOL或CELTA认证",
+          "英语作为第二语言的教学经验",
+          "熟悉在线教学平台",
+          "多语言能力（特别是亚洲语言）",
+          "创造性和吸引人的教学方法"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为什么选择Top Talks",
+      "subtitle": "加入一个重视和支持教师的平台，提供有竞争力的福利和积极的工作环境。",
+      "flexibleSchedule": {
+        "title": "灵活时间",
+        "description": "设定自己的时间，在最适合您的时候教学。非常适合全职教师或寻求额外收入的人。"
+      },
+      "competitivePay": {
+        "title": "有竞争力的薪酬",
+        "description": "获得有竞争力的小时费率，并有机会根据学生反馈和表现获得奖金。"
+      },
+      "professionalDevelopment": {
+        "title": "专业发展",
+        "description": "获得持续的培训、研讨会和资源，提升您的教学技能和职业发展。"
+      },
+      "globalCommunity": {
+        "title": "全球社区",
+        "description": "与来自世界各地的学生联系，成为多元化、支持性教学社区的一部分。"
+      },
+      "technicalSupport": {
+        "title": "技术支持",
+        "description": "获得全面的技术支持和培训，确保流畅的在线教学体验。"
+      },
+      "curriculumProvided": {
+        "title": "提供课程",
+        "description": "获得结构化的课程计划和材料，让您专注于教学而不是准备。"
+      }
+    },
+    "cta": {
+      "title": "准备开始教学了吗？",
+      "subtitle": "加入成千上万正在改变学生生活、同时在Top Talks建立有意义职业的教育工作者。",
+      "note": "有问题？请发邮件至teachers@toptalks.com或致电我们的支持团队。"
+    }
+  },
+  "studentServices": {
+    "title": "自信学习英语",
+    "subtitle": "加入成千上万通过我们个性化、有趣且有效的学习方法改变英语技能的学生。",
+    "whyChoose": {
+      "title": "我们对服务的信心",
+      "subtitle": "我们经过验证的方法和对学生成功的奉献使我们成为全世界家庭的信赖选择。",
+      "provenTrack": {
+        "title": "经过验证的记录",
+        "description": "超过10,000名学生通过我们提高了英语水平，95%的家长报告在3个月内取得显著进步。"
+      },
+      "expertTeachers": {
+        "title": "专家教师",
+        "description": "我们的教师经过严格筛选和培训。他们持有教学证书，专门从事青少年英语学习者的工作。"
+      },
+      "innovativeMethods": {
+        "title": "创新教学方法",
+        "description": "我们使用最新的教育技术和专门为儿童学习模式设计的经过验证的教学方法。"
+      },
+      "satisfaction": {
+        "title": "满意保证",
+        "description": "我们对我们的服务如此自信，如果您不完全满意，我们提供30天退款保证。"
+      }
+    },
+    "services": {
+      "title": "我们服务包含的内容",
+      "subtitle": "我们服务的每个方面都旨在为您的孩子提供最佳的学习体验。",
+      "personalizedLearning": {
+        "title": "个性化学习",
+        "description": "每节课都根据您孩子的个人学习节奏、兴趣和目标量身定制。我们的教师调整教学风格以匹配您孩子的独特需求。"
+      },
+      "qualifiedTeachers": {
+        "title": "合格的母语教师",
+        "description": "我们所有的教师都是具有教学证书的英语母语者，在与来自不同背景的年轻学习者合作方面有丰富经验。"
+      },
+      "interactivePlatform": {
+        "title": "互动学习平台",
+        "description": "我们定制的平台包括游戏、互动练习、虚拟白板和多媒体内容，在整个课程中保持学生的参与度。"
+      },
+      "flexibleScheduling": {
+        "title": "灵活安排",
+        "description": "在适合您家庭的时间预订课程。我们的教师可在不同时区提供服务以适应您的时间表。"
+      },
+      "progressTracking": {
+        "title": "进度跟踪",
+        "description": "通过详细的进度报告、技能评估和专职教师的定期反馈监控您孩子的改进。"
+      },
+      "familySupport": {
+        "title": "家庭支持",
+        "description": "家长接收定期更新、进度报告和如何在家支持孩子英语学习之旅的指导。"
+      }
+    },
+    "pricing": {
+      "title": "选择您的学习计划",
+      "subtitle": "灵活的价格选择，旨在适合每个家庭的需求和预算。所有计划都包含我们的核心功能，无隐藏费用。",
+      "basic": {
+        "name": "基础计划",
+        "price": "$29",
+        "period": "每月",
+        "description": "非常适合开始英语学习之旅的初学者",
+        "buttonText": "开始使用"
+      },
+      "standard": {
+        "name": "标准计划",
+        "price": "$49",
+        "period": "每月",
+        "description": "持续学习进步的最受欢迎选择",
+        "buttonText": "最受欢迎"
+      },
+      "premium": {
+        "name": "高级计划",
+        "price": "$79",
+        "period": "每月",
+        "description": "快速英语提升的强化学习",
+        "buttonText": "选择高级"
+      },
+      "trialNote": "所有计划都包含7天免费试用。随时取消，无需询问。",
+      "customNote": "需要多个孩子的定制计划？联系我们获取家庭折扣。"
+    },
+    "howToStart": {
+      "title": "如何成为学生",
+      "subtitle": "开始很简单，只需几分钟。以下是您的英语学习之旅开始的方式。",
+      "step1": {
+        "title": "注册和评估",
+        "description": "创建您的账户并完成快速的10分钟评估，帮助我们了解您当前的英语水平和学习目标。",
+        "details": "这个评估帮助我们为您匹配完美的教师，并从第一天开始定制您的学习体验。"
+      },
+      "step2": {
+        "title": "见您的老师",
+        "description": "我们将根据您的评估结果、学习风格和时间偏好为您匹配合格的教师。",
+        "details": "安排您的第一次免费试听课，见您的老师并体验我们的互动学习平台。"
+      },
+      "step3": {
+        "title": "开始学习",
+        "description": "开始您的个性化英语学习之旅，包括定期一对一课程、互动练习和进度跟踪。",
+        "details": "您的老师将根据您的目标创建定制课程，无论是提高对话技能、语法还是考试准备。"
+      }
+    },
+    "successStories": {
+      "title": "学生成功故事",
+      "subtitle": "看看我们的学生如何改变他们的英语技能并实现学习目标。"
+    },
+    "cta": {
+      "title": "准备开始您的英语之旅吗？",
+      "subtitle": "加入成千上万通过Top Talks提高英语技能的成功学生。今天就开始您的免费试用！",
+      "note": "试用无需信用卡 • 随时取消 • 30天退款保证"
     }
   },
   "forms": {
@@ -101,6 +322,12 @@
   "footer": {
     "copyright": "© 2024 Top Talks. 保留所有权利。",
     "privacy": "隐私政策",
-    "terms": "服务条款"
+    "terms": "服务条款",
+    "brandDescription": "为世界各地的学生和教师提供有趣的秋日英语学习冒险。",
+    "madeWithCare": "为各地学习者精心制作",
+    "quickLinks": "快速链接",
+    "ourCommunity": "我们的社区",
+    "followUs": "在社交媒体上关注我们",
+    "seasonalMessage": "学习英语就像收集秋天的叶子 - 您收集的每个单词都让您的知识更加美丽。"
   }
 }
