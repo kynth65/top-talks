@@ -15,7 +15,7 @@ interface StartTeachingProps {
 }
 
 const StartTeaching: React.FC<StartTeachingProps> = ({ title = 'Start Teaching - Top Talks' }) => {
-  const { t, currentLanguage } = useTranslation();
+  const { t } = useTranslation();
 
   const pageVariants = {
     initial: { opacity: 0 },
@@ -272,7 +272,7 @@ const StartTeaching: React.FC<StartTeachingProps> = ({ title = 'Start Teaching -
                   <motion.div variants={itemVariants} className="bg-card rounded-2xl p-8 shadow-lg">
                     <h3 className="text-2xl font-bold text-foreground mb-6">{t('startTeaching.requirements.essential.title')}</h3>
                     <div className="space-y-4">
-                      {t('startTeaching.requirements.essential.items', { returnObjects: true }).map((item: string, index: number) => (
+                      {(t('startTeaching.requirements.essential.items', { returnObjects: true }) as string[]).map((item: string, index: number) => (
                         <div key={index} className="flex items-start space-x-3">
                           <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
                           <p className="text-muted-foreground">{item}</p>
@@ -285,7 +285,7 @@ const StartTeaching: React.FC<StartTeachingProps> = ({ title = 'Start Teaching -
                   <motion.div variants={itemVariants} className="bg-card rounded-2xl p-8 shadow-lg">
                     <h3 className="text-2xl font-bold text-foreground mb-6">{t('startTeaching.requirements.preferred.title')}</h3>
                     <div className="space-y-4">
-                      {t('startTeaching.requirements.preferred.items', { returnObjects: true }).map((item: string, index: number) => (
+                      {(t('startTeaching.requirements.preferred.items', { returnObjects: true }) as string[]).map((item: string, index: number) => (
                         <div key={index} className="flex items-start space-x-3">
                           <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0"></div>
                           <p className="text-muted-foreground">{item}</p>
