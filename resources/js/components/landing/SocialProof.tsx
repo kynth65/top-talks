@@ -25,10 +25,10 @@ const SocialProof: React.FC = () => {
         },
     };
 
-    // Sample testimonials with cartoon avatars
+    // Sample testimonials with real student photos
     const testimonials = [
         {
-            avatar: '👧🏻',
+            avatar: '/images/student_asian_wearing_white_shirt.png',
             name: 'Emma',
             age: 12,
             country: '🇺🇸',
@@ -36,7 +36,7 @@ const SocialProof: React.FC = () => {
             rating: 5,
         },
         {
-            avatar: '👦🏽',
+            avatar: '/images/student_wearing_denimandwhite_shirt.png',
             name: 'Carlos',
             age: 10,
             country: '🇲🇽',
@@ -44,7 +44,7 @@ const SocialProof: React.FC = () => {
             rating: 5,
         },
         {
-            avatar: '👧🏿',
+            avatar: '/images/student_asian_wearing_white_shirt.png',
             name: 'Zara',
             age: 14,
             country: '🇳🇬',
@@ -52,7 +52,7 @@ const SocialProof: React.FC = () => {
             rating: 5,
         },
         {
-            avatar: '👦🏻',
+            avatar: '/images/student_wearing_denimandwhite_shirt.png',
             name: 'Oliver',
             age: 11,
             country: '🇬🇧',
@@ -61,10 +61,10 @@ const SocialProof: React.FC = () => {
         },
     ];
 
-    // Featured tutors
+    // Featured tutors with real teacher photos
     const featuredTutors = [
         {
-            avatar: '👩🏻‍🏫',
+            avatar: '/images/teacher_wearing_black.png',
             name: 'Sarah Johnson',
             specialty: 'Kids English',
             experience: '5 years',
@@ -73,7 +73,7 @@ const SocialProof: React.FC = () => {
             country: '🇺🇸',
         },
         {
-            avatar: '👨🏽‍🏫',
+            avatar: '/images/teacher_wearing_denim.png',
             name: 'Miguel Rodriguez',
             specialty: 'Grammar Fun',
             experience: '4 years',
@@ -82,7 +82,7 @@ const SocialProof: React.FC = () => {
             country: '🇪🇸',
         },
         {
-            avatar: '👩🏾‍🏫',
+            avatar: '/images/teacher_wearing_black.png',
             name: 'Amara Okafor',
             specialty: 'Speaking Confidence',
             experience: '6 years',
@@ -96,20 +96,20 @@ const SocialProof: React.FC = () => {
         {
             icon: '🍂',
             number: '10,000+',
-            label: 'Happy Learners',
-            description: 'Students from around the world',
+            label: t('socialProof.statistics.learners'),
+            description: t('socialProof.statistics.learnersDescription'),
         },
         {
             icon: '🌰',
             number: '500+',
-            label: 'Caring Teachers',
-            description: 'Professional & friendly instructors',
+            label: t('socialProof.statistics.teachers'),
+            description: t('socialProof.statistics.teachersDescription'),
         },
         {
             icon: '🍁',
             number: '50+',
-            label: 'Countries Served',
-            description: 'Global learning community',
+            label: t('socialProof.statistics.countries'),
+            description: t('socialProof.statistics.countriesDescription'),
         },
     ];
 
@@ -136,12 +136,11 @@ const SocialProof: React.FC = () => {
                     {/* Section Header */}
                     <motion.div variants={itemVariants} className="mb-16 text-center">
                         <h2 className="mb-6 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">
-                            What Our{' '}
                             <span className="bg-gradient-to-r from-autumn-golden via-autumn-orange to-autumn-red bg-clip-text text-transparent">
-                                Students Say
+                                {t('socialProof.title')}
                             </span>
                         </h2>
-                        <p className="mx-auto max-w-2xl text-xl text-muted-foreground">Join thousands of happy learners on their autumn adventure</p>
+                        <p className="mx-auto max-w-2xl text-xl text-muted-foreground">{t('socialProof.subtitle')}</p>
                     </motion.div>
 
                     {/* Statistics */}
@@ -180,12 +179,19 @@ const SocialProof: React.FC = () => {
                                     {/* Message */}
                                     <p className="text-center text-sm leading-relaxed text-muted-foreground italic">"{testimonial.message}"</p>
 
-                                    {/* Student info */}
-                                    <div className="mt-4 text-center">
-                                        <div className="text-sm font-semibold text-foreground">
-                                            {testimonial.name}, {testimonial.age}
+                                    {/* Student info with avatar */}
+                                    <div className="mt-4 flex flex-col items-center space-y-2">
+                                        <img
+                                            src={testimonial.avatar}
+                                            alt={`${testimonial.name} - student`}
+                                            className="w-12 h-12 object-cover rounded-full border-2 border-primary/20"
+                                        />
+                                        <div className="text-center">
+                                            <div className="text-sm font-semibold text-foreground">
+                                                {testimonial.name}, {testimonial.age}
+                                            </div>
+                                            <div className="text-xs text-muted-foreground">{testimonial.country}</div>
                                         </div>
-                                        <div className="text-xs text-muted-foreground">{testimonial.country}</div>
                                     </div>
                                 </div>
                             </motion.div>
@@ -195,9 +201,9 @@ const SocialProof: React.FC = () => {
                     {/* Featured Tutors */}
                     <motion.div variants={itemVariants} className="mb-8 text-center">
                         <h3 className="mb-4 text-2xl font-bold text-foreground sm:text-3xl">
-                            Meet Our Amazing <span className="text-primary">Teachers</span>
+                            <span className="text-primary">{t('socialProof.featuredTeachersTitle')}</span>
                         </h3>
-                        <p className="text-muted-foreground">Experienced, caring educators ready to guide your learning journey</p>
+                        <p className="text-muted-foreground">{t('socialProof.featuredTeachersSubtitle')}</p>
                     </motion.div>
 
                     <motion.div variants={itemVariants} className="grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -212,6 +218,15 @@ const SocialProof: React.FC = () => {
                                 <div className="absolute top-0 right-0 h-24 w-24 rounded-full bg-gradient-to-bl from-autumn-golden/20 to-transparent blur-2xl"></div>
 
                                 <div className="relative z-10">
+                                    {/* Tutor avatar */}
+                                    <div className="mb-4 flex justify-center">
+                                        <img
+                                            src={tutor.avatar}
+                                            alt={`${tutor.name} - teacher`}
+                                            className="w-20 h-20 object-cover rounded-full border-4 border-primary/20 shadow-lg"
+                                        />
+                                    </div>
+
                                     {/* Tutor info */}
                                     <h4 className="mb-2 text-lg font-bold text-foreground">
                                         {tutor.name} {tutor.country}
@@ -241,7 +256,7 @@ const SocialProof: React.FC = () => {
 
                     {/* Bottom encouragement */}
                     <motion.div variants={itemVariants} className="mt-16 text-center">
-                        <p className="text-lg font-medium text-muted-foreground">Join our growing family of learners and teachers!</p>
+                        <p className="text-lg font-medium text-muted-foreground">{t('socialProof.encouragement')}</p>
                     </motion.div>
                 </motion.div>
             </div>

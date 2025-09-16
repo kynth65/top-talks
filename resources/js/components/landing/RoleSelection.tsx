@@ -50,13 +50,12 @@ const RoleSelection: React.FC = () => {
                     {/* Section Header */}
                     <motion.div variants={cardVariants} className="mb-16 text-center">
                         <h2 className="mb-6 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">
-                            Choose Your{' '}
                             <span className="bg-gradient-to-r from-autumn-golden via-autumn-orange to-autumn-red bg-clip-text text-transparent">
-                                Autumn Adventure
+                                {t('roleSelection.title')}
                             </span>
                         </h2>
                         <p className="mx-auto max-w-2xl text-xl text-muted-foreground">
-                            Whether you're here to learn or teach, we have the perfect path for your English journey
+                            {t('roleSelection.subtitle')}
                         </p>
                     </motion.div>
 
@@ -69,6 +68,16 @@ const RoleSelection: React.FC = () => {
 
                                 <div className="relative z-10">
                                     <div className="mb-8 text-center">
+                                        {/* Student Avatar */}
+                                        <div className="mb-6 flex justify-center">
+                                            <motion.img
+                                                src="/images/student_wearing_denimandwhite_shirt.png"
+                                                alt="Happy student"
+                                                className="w-24 h-24 object-cover rounded-full border-4 border-primary/20 shadow-lg"
+                                                whileHover={{ scale: 1.1, rotate: 5 }}
+                                                transition={{ duration: 0.3 }}
+                                            />
+                                        </div>
                                         <h3 className="mb-4 text-2xl font-bold text-primary sm:text-3xl">{t('roleSelection.student.title')}</h3>
 
                                         <div className="space-y-4 text-left">
@@ -94,7 +103,11 @@ const RoleSelection: React.FC = () => {
 
                                     <div className="text-center">
                                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                                            <Button size="lg" className="w-full transition-all duration-300 group-hover:shadow-lg">
+                                            <Button
+                                                size="lg"
+                                                className="w-full transition-all duration-300 group-hover:shadow-lg"
+                                                onClick={() => window.location.href = '/student-services'}
+                                            >
                                                 {t('roleSelection.student.cta')}
                                             </Button>
                                         </motion.div>
@@ -111,6 +124,16 @@ const RoleSelection: React.FC = () => {
 
                                 <div className="relative z-10">
                                     <div className="mb-8 text-center">
+                                        {/* Teacher Avatar */}
+                                        <div className="mb-6 flex justify-center">
+                                            <motion.img
+                                                src="/images/teacher_wearing_denim.png"
+                                                alt="Professional teacher"
+                                                className="w-24 h-24 object-cover rounded-full border-4 border-secondary/20 shadow-lg"
+                                                whileHover={{ scale: 1.1, rotate: -5 }}
+                                                transition={{ duration: 0.3 }}
+                                            />
+                                        </div>
                                         <h3 className="mb-4 text-2xl font-bold text-secondary sm:text-3xl">{t('roleSelection.tutor.title')}</h3>
 
                                         <div className="space-y-4 text-left">
@@ -140,6 +163,7 @@ const RoleSelection: React.FC = () => {
                                                 variant="secondary"
                                                 size="lg"
                                                 className="w-full transition-all duration-300 group-hover:shadow-lg"
+                                                onClick={() => window.location.href = '/start-teaching'}
                                             >
                                                 {t('roleSelection.tutor.cta')}
                                             </Button>
@@ -163,7 +187,7 @@ const RoleSelection: React.FC = () => {
                                 ease: 'easeInOut',
                             }}
                         >
-                            Every great journey begins with a single step
+                            {t('roleSelection.encouragement')}
                         </motion.p>
                     </motion.div>
                 </motion.div>

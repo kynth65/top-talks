@@ -126,7 +126,7 @@ const HowItWorks: React.FC = () => {
                                     <motion.button
                                         key={tab}
                                         onClick={() => setActiveTab(tab as 'students' | 'tutors')}
-                                        className={`relative rounded-xl px-6 py-3 font-semibold transition-all duration-300 ${
+                                        className={`relative rounded-xl px-6 py-3 font-semibold transition-all duration-300 cursor-pointer ${
                                             activeTab === tab ? 'text-primary-foreground shadow-md' : 'text-muted-foreground hover:text-foreground'
                                         }`}
                                         whileTap={{ scale: 0.95 }}

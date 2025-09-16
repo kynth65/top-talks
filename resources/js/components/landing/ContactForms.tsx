@@ -121,7 +121,7 @@ const ContactForms: React.FC = () => {
                                             <motion.button
                                                 key={form.id}
                                                 onClick={() => setActiveForm(form.id as any)}
-                                                className={`relative flex items-center space-x-2 rounded-xl px-4 py-3 font-semibold transition-all duration-300 ${
+                                                className={`relative flex items-center space-x-2 rounded-xl px-4 py-3 font-semibold transition-all duration-300 cursor-pointer ${
                                                     activeForm === form.id
                                                         ? 'text-primary-foreground shadow-md'
                                                         : 'text-muted-foreground hover:text-foreground'
