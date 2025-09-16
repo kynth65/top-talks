@@ -154,7 +154,7 @@ const Landing: React.FC<LandingProps> = ({ title = 'Top Talks - Learn English th
 
           {/* Back to Top Button */}
           <motion.button
-            className="fixed bottom-8 right-8 bg-primary hover:bg-primary/90 text-primary-foreground p-3 rounded-full shadow-lg z-40 transition-colors duration-200"
+            className="fixed bottom-8 right-8 bg-primary hover:bg-primary/90 text-primary-foreground p-3 rounded-full shadow-lg z-40 transition-colors duration-200 cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
