@@ -22,5 +22,6 @@
     "APP_DEBUG": "false",
     "LOG_CHANNEL": "stderr"
   },
-  "buildCommand": "npm run build"
+  "buildCommand": "npm run build",
+  "installCommand": "npm install"
 }
