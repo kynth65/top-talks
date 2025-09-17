@@ -28,10 +28,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       xl: 'h-14 px-10 text-xl min-w-[160px]',
     };
 
-    const buttonVariants = motion.create('button');
-
     return (
-      <buttonVariants
+      <motion.button
         ref={ref}
         className={cn(
           baseStyles,
@@ -49,7 +47,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           <div className="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" />
         )}
         {children}
-      </buttonVariants>
+      </motion.button>
     );
   }
 );
