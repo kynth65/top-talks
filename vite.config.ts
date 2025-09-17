@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 import laravel from 'laravel-vite-plugin';
 import { defineConfig } from 'vite';
 
-export default defineConfig({
-    plugins: [
+export default defineConfig(({ mode }) => {
+    const plugins = [
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.tsx'],
             ssr: 'resources/js/ssr.tsx',
@@ -13,11 +13,19 @@ export default defineConfig({
         }),
         react(),
         tailwindcss(),
-        wayfinder({
+    ];
+
+    // Only add wayfinder in development (when PHP is available)
+    if (mode === 'development') {
+        plugins.push(wayfinder({
             formVariants: true,
-        }),
-    ],
-    esbuild: {
-        jsx: 'automatic',
-    },
+        }));
+    }
+
+    return {
+        plugins,
+        esbuild: {
+            jsx: 'automatic',
+        },
+    };
 });
