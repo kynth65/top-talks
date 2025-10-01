@@ -38,7 +38,3 @@
 .prettierrc
 .prettierignore
 phpunit.xml
-composer.json
-composer.lock
-package.json
-package-lock.json
