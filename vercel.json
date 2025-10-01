@@ -35,9 +35,11 @@
     }
   ],
   "env": {
+    "VERCEL": "1",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
     "LOG_CHANNEL": "stderr",
+    "LOG_LEVEL": "debug",
     "SESSION_DRIVER": "cookie",
     "CACHE_DRIVER": "array",
     "QUEUE_CONNECTION": "sync"
