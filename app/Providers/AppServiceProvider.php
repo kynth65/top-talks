@@ -11,10 +11,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        // Configure storage paths for Vercel serverless environment
-        if (isset($_ENV['VERCEL']) && $_ENV['VERCEL'] === '1') {
-            $this->configureVercelStorage();
-        }
+        //
     }
 
     /**
@@ -22,7 +19,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Configure storage paths for Vercel serverless environment
+        if (isset($_ENV['VERCEL']) && $_ENV['VERCEL'] === '1') {
+            $this->configureVercelStorage();
+        }
     }
 
     /**
