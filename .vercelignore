@@ -1,0 +1,44 @@
+# Development files
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+/node_modules
+/vendor
+
+# Testing
+/tests
+/.phpunit.cache
+.phpunit.result.cache
+
+# IDE
+.vscode
+.idea
+.fleet
+.nova
+.zed
+
+# Git
+.git
+.github
+.claude
+
+# Storage
+/storage/*.key
+/storage/pail
+/storage/logs
+
+# Cache
+/bootstrap/cache
+/public/hot
+
+# Other
+.editorconfig
+.prettierrc
+.prettierignore
+phpunit.xml
+composer.json
+composer.lock
+package.json
+package-lock.json
