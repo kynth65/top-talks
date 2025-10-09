@@ -31,3 +31,5 @@ yarn-error.log
 # Claude Code and GitHub workflows
 /.claude
 /.github
+
+.vercel
