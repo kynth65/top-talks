@@ -1,16 +1,26 @@
+# Laravel backend (not needed for static frontend)
+/app
+/bootstrap
+/config
+/database
+/routes
+/storage
+/tests
+/vendor
+/api
+*.php
+composer.*
+artisan
+phpunit.xml
+.phpunit.result.cache
+
 # Development files
 .env
 .env.local
 .env.*.local
 
-# Dependencies
+# Dependencies (will be installed during build)
 /node_modules
-/vendor
-
-# Testing
-/tests
-/.phpunit.cache
-.phpunit.result.cache
 
 # IDE
 .vscode
@@ -24,10 +34,9 @@
 .github
 .claude
 
-# Storage
-/storage/*.key
-/storage/pail
-/storage/logs
+# Documentation
+README.md
+CLAUDE.md
 
 # Cache
 /bootstrap/cache
@@ -37,4 +46,3 @@
 .editorconfig
 .prettierrc
 .prettierignore
-phpunit.xml
