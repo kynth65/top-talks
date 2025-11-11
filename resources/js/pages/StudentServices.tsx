@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from '@inertiajs/react';
+import { Head, Link } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 
 // Layout Components
@@ -215,12 +215,16 @@ const StudentServices: React.FC<StudentServicesProps> = ({ title = 'Student Serv
                   </motion.div>
 
                   <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
-                    <Button size="xl" className="shadow-lg">
-                      {t('common.startFreeTrial')}
-                    </Button>
-                    <Button variant="outline" size="xl">
-                      {t('common.viewPricing')}
-                    </Button>
+                    <Link href="/free-trial">
+                      <Button size="xl" className="shadow-lg">
+                        {t('common.startFreeTrial')}
+                      </Button>
+                    </Link>
+                    <Link href="/pricing">
+                      <Button variant="outline" size="xl">
+                        {t('common.viewPricing')}
+                      </Button>
+                    </Link>
                   </motion.div>
                 </motion.div>
               </div>
@@ -555,12 +559,16 @@ const StudentServices: React.FC<StudentServicesProps> = ({ title = 'Student Serv
                     {t('studentServices.cta.subtitle')}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="xl" className="shadow-lg">
-                      {t('common.startFreeTrial')}
-                    </Button>
-                    <Button variant="outline" size="xl">
-                      {t('common.scheduleConsultation')}
-                    </Button>
+                    <Link href="/free-trial">
+                      <Button size="xl" className="shadow-lg">
+                        {t('common.startFreeTrial')}
+                      </Button>
+                    </Link>
+                    <Link href="/#contact">
+                      <Button variant="outline" size="xl">
+                        {t('common.scheduleConsultation')}
+                      </Button>
+                    </Link>
                   </div>
                   <p className="text-sm text-muted-foreground">
                     {t('studentServices.cta.note')}
