@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart } from 'lucide-react';
 import { useTranslation } from '@/hooks/useTranslation';
+import { Link, router } from '@inertiajs/react';
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Footer: React.FC = () => {
       }
     } else {
       // We're on a different page, navigate to home with hash
-      window.location.href = `/#${sectionId}`;
+      router.visit(`/#${sectionId}`);
     }
   };
 
@@ -95,7 +96,7 @@ const Footer: React.FC = () => {
                     if (window.location.pathname === '/') {
                       window.scrollTo({ top: 0, behavior: 'smooth' });
                     } else {
-                      window.location.href = '/';
+                      router.visit('/');
                     }
                   }}
                 >
@@ -123,28 +124,22 @@ const Footer: React.FC = () => {
                 >
                   {t('navigation.contact')}
                 </motion.a>
-                <motion.a
+                <Link
                   href="/student-services"
-                  className="text-slate-300 hover:text-white transition-colors cursor-pointer"
-                  whileHover={{ x: 5 }}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = '/student-services';
-                  }}
+                  className="text-slate-300 hover:text-white transition-colors cursor-pointer block"
                 >
-                  {t('navigation.forStudents')}
-                </motion.a>
-                <motion.a
+                  <motion.span whileHover={{ x: 5 }} className="block">
+                    {t('navigation.forStudents')}
+                  </motion.span>
+                </Link>
+                <Link
                   href="/start-teaching"
-                  className="text-slate-300 hover:text-white transition-colors cursor-pointer"
-                  whileHover={{ x: 5 }}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = '/start-teaching';
-                  }}
+                  className="text-slate-300 hover:text-white transition-colors cursor-pointer block"
                 >
-                  {t('navigation.forTeachers')}
-                </motion.a>
+                  <motion.span whileHover={{ x: 5 }} className="block">
+                    {t('navigation.forTeachers')}
+                  </motion.span>
+                </Link>
               </nav>
             </motion.div>
 
