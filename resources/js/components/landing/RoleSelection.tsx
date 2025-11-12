@@ -1,4 +1,5 @@
 import { useTranslation } from '@/hooks/useTranslation';
+import { Link } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 import React from 'react';
 import Button from '../common/Button';
@@ -103,13 +104,14 @@ const RoleSelection: React.FC = () => {
 
                                     <div className="text-center">
                                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                                            <Button
-                                                size="lg"
-                                                className="w-full transition-all duration-300 group-hover:shadow-lg"
-                                                onClick={() => window.location.href = '/student-services'}
-                                            >
-                                                {t('roleSelection.student.cta')}
-                                            </Button>
+                                            <Link href="/student-services">
+                                                <Button
+                                                    size="lg"
+                                                    className="w-full transition-all duration-300 group-hover:shadow-lg"
+                                                >
+                                                    {t('roleSelection.student.cta')}
+                                                </Button>
+                                            </Link>
                                         </motion.div>
                                     </div>
                                 </div>
@@ -159,14 +161,15 @@ const RoleSelection: React.FC = () => {
 
                                     <div className="text-center">
                                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                                            <Button
-                                                variant="secondary"
-                                                size="lg"
-                                                className="w-full transition-all duration-300 group-hover:shadow-lg"
-                                                onClick={() => window.location.href = '/start-teaching'}
-                                            >
-                                                {t('roleSelection.tutor.cta')}
-                                            </Button>
+                                            <Link href="/start-teaching">
+                                                <Button
+                                                    variant="secondary"
+                                                    size="lg"
+                                                    className="w-full transition-all duration-300 group-hover:shadow-lg"
+                                                >
+                                                    {t('roleSelection.tutor.cta')}
+                                                </Button>
+                                            </Link>
                                         </motion.div>
                                     </div>
                                 </div>
