@@ -1,4 +1,5 @@
 import { useTranslation } from '@/hooks/useTranslation';
+import { Link } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 import React from 'react';
 import Button from '../common/Button';
@@ -47,24 +48,26 @@ const Hero: React.FC = () => {
                         {/* Call-to-Action Buttons */}
                         <motion.div variants={itemVariants} className="flex flex-col items-center lg:items-start justify-center gap-4 sm:flex-row">
                             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="w-full sm:w-auto">
-                                <Button
-                                    size="xl"
-                                    className="w-full shadow-lg transition-shadow duration-300 hover:shadow-xl sm:w-auto"
-                                    onClick={() => window.location.href = '/student-services'}
-                                >
-                                    {t('hero.cta_student')}
-                                </Button>
+                                <Link href="/student-services">
+                                    <Button
+                                        size="xl"
+                                        className="w-full shadow-lg transition-shadow duration-300 hover:shadow-xl sm:w-auto"
+                                    >
+                                        {t('hero.cta_student')}
+                                    </Button>
+                                </Link>
                             </motion.div>
 
                             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="w-full sm:w-auto">
-                                <Button
-                                    variant="secondary"
-                                    size="xl"
-                                    className="w-full shadow-lg transition-shadow duration-300 hover:shadow-xl sm:w-auto"
-                                    onClick={() => window.location.href = '/start-teaching'}
-                                >
-                                    {t('hero.cta_tutor')}
-                                </Button>
+                                <Link href="/start-teaching">
+                                    <Button
+                                        variant="secondary"
+                                        size="xl"
+                                        className="w-full shadow-lg transition-shadow duration-300 hover:shadow-xl sm:w-auto"
+                                    >
+                                        {t('hero.cta_tutor')}
+                                    </Button>
+                                </Link>
                             </motion.div>
                         </motion.div>
 
