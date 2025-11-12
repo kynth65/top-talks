@@ -1,5 +1,6 @@
 import { useTranslation } from '@/hooks/useTranslation';
 import { cn } from '@/lib/utils';
+import { Link, router } from '@inertiajs/react';
 import { Menu, X } from 'lucide-react';
 import React, { useState } from 'react';
 import Button from './Button';
@@ -29,7 +30,7 @@ const Header: React.FC = () => {
             }
         } else {
             // We're on a different page, navigate to home with hash
-            window.location.href = `/#${sectionId}`;
+            router.visit(`/#${sectionId}`);
         }
     };
 
@@ -38,9 +39,9 @@ const Header: React.FC = () => {
             <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
                 <div className="flex h-14 items-center justify-between sm:h-16">
                     {/* Logo */}
-                    <a href="/" className="text-lg font-bold whitespace-nowrap text-primary sm:text-xl md:text-2xl">
+                    <Link href="/" className="text-lg font-bold whitespace-nowrap text-primary sm:text-xl md:text-2xl">
                         Top Talks
-                    </a>
+                    </Link>
 
                     {/* Desktop Navigation - Only on large screens */}
                     <nav className="hidden items-center space-x-6 lg:flex xl:space-x-8">
@@ -52,7 +53,7 @@ const Header: React.FC = () => {
                                 if (window.location.pathname === '/') {
                                     window.scrollTo({ top: 0, behavior: 'smooth' });
                                 } else {
-                                    window.location.href = '/';
+                                    router.visit('/');
                                 }
                             }}
                         >
@@ -98,9 +99,9 @@ const Header: React.FC = () => {
                         >
                             {t('navigation.contact')}
                         </a>
-                        <a href="/pricing" className="font-medium text-foreground transition-colors hover:text-primary">
+                        <Link href="/pricing" className="font-medium text-foreground transition-colors hover:text-primary">
                             Pricing
-                        </a>
+                        </Link>
                     </nav>
 
                     {/* Desktop Actions */}
@@ -156,7 +157,7 @@ const Header: React.FC = () => {
                                         if (window.location.pathname === '/') {
                                             window.scrollTo({ top: 0, behavior: 'smooth' });
                                         } else {
-                                            window.location.href = '/';
+                                            router.visit('/');
                                         }
                                         closeMobileMenu();
                                     }}
@@ -208,13 +209,13 @@ const Header: React.FC = () => {
                                 >
                                     {t('navigation.contact')}
                                 </a>
-                                <a
+                                <Link
                                     href="/pricing"
                                     onClick={closeMobileMenu}
                                     className="py-2 font-medium text-foreground transition-colors hover:text-primary"
                                 >
                                     Pricing
-                                </a>
+                                </Link>
                             </div>
 
                             {/* Language Selector */}
